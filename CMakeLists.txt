@@ -82,20 +82,19 @@ target_link_libraries(${PROJECT_NAME} PUBLIC Qt6::Core Qt6::Gui Qt6::Widgets Qt6
 target_include_directories(${PROJECT_NAME} PUBLIC Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
 target_link_libraries(${PROJECT_NAME} PUBLIC Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
 
-target_include_directories(TestPython PRIVATE Python_INCLUDE_DIRS)
-
-target_link_directories(TestPython PRIVATE Python_LIBARY_DIRS)
-target_link_libraries(TestPython PRIVATE Python_LIBRARIES)
+target_include_directories(${PROJECT_NAME} PRIVATE Python3_INCLUDE_DIRS)
+target_link_libraries(${PROJECT_NAME} PRIVATE Python3::Python)
+target_link_directories(${PROJECT_NAME} PRIVATE Python3_LIBARY_DIRS)
        
-set_target_properties(LIB_GLFW_EXAMPLE_CBASIC PROPERTIES RELEASE_OUTPUT_NAME ${LIB_GLFW_EXAMPLE_CBASIC_RELEASE_OUTPUT_NAME})
-set_target_properties(LIB_GLFW_EXAMPLE_CBASIC PROPERTIES DEBUG_OUTPUT_NAME ${LIB_GLFW_EXAMPLE_CBASIC_DEBUG_OUTPUT_NAME})
+
+set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME ${PROJECT_NAME}_release)
+set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_OUTPUT_NAME ${PROJECT_NAME}_debug)
 
 
-#add_dependencies(TestPyton cpython)
 
 
 install(
-  TARGETS TestPython
+  TARGETS ${PROJECT_NAME}
   RUNTIME DESTINATION ${CMAKE_SOURCE_DIR}/out
 )
 

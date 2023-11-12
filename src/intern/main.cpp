@@ -1,7 +1,6 @@
 
-
-#include "bsApplication.h"
 #include "Python.h"
+#include "bsApplication.h"
 
 //! [1]
 int main(int argc, char **argv)
