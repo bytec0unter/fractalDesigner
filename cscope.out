@@ -1,4 +1,4 @@
-cscope 15 /media/stuv/PROJECTS/programming/cpp/fractalDesigner/fractalDesigner               0000002305
+cscope 15 /media/stuv/PROJECTS/programming/cpp/fractalDesigner/fractalDesigner               0000002352
 	@src/intern/bsApplication.cpp
 
 2 
@@ -384,6 +384,16 @@ m_backögSt‹e
 	@src/intern/bsVM/bsVM.cpp
 
 	@src/intern/bsVM/bsVM.h
+
+2 #i‚de‡
+BSVM_HEADER
+
+
+3 
+	#BSVM_HEADER
+
+
+	)
 
 	@src/intern/bsVM/tests/build_test.cpp
 
