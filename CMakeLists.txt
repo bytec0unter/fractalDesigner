@@ -1,0 +1,119 @@
+cmake_minimum_required(VERSION 3.5.1)
+project(bsApplication VERSION 0.0.1 LANGUAGES CXX)
+
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/")
+
+## SETUP VARIABLES so that cmake can find the packages
+#
+set(Qt6_DIR "/home/stuv/Qt/6.6.0/gcc_64/lib/cmake/Qt6")
+set(Python3_DIR "/home/stuv/build/python3.13/lib")
+set(Python_PATH "/home/stuv/build/python3.13/bin")
+
+set(QT6_RPATH "/home/stuv/Qt/6.6.0/gcc_64/lib") 
+
+set(EXTERNAL_BUILD_PATH "/home/stuv/build/cpython3.13/CMakeFiles/Export/lib/cmake/cpython3.13")
+#list(APPEND CMAKE_PREFIX_PATH ${EXTERNAL_BUILD_PATH})
+
+
+## SETUP CMAKE COMPILER OPTIONS
+#
+#
+if(NOT CMAKE_BUILD_TYPE)
+	set(CMAKE_BUILD_TYPE Debug)
+endif()
+
+if(NOT CMAKE_INSTALL_PREFIX)
+	set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/out)
+endif()
+
+if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+	set(CMAKE_CXX_FLAGS "-Wall")
+endif()
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc)
+set(CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++)
+
+SET(CMAKE_CXX_STANDARD 17)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
+SET(CMAKE_BUILD_TYPE Debug)
+SET(CMAKE_CXX_FLAGS_RELEASE "-O3")
+
+
+
+
+
+
+
+
+
+## SETUP PACKAGES
+#
+#
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets OpenGL)
+qt6_standard_project_setup()
+
+# find python library located at /home/stuv/build/python3.13/lib/libpython3.13.so
+find_package(
+  Python3 3.13.0
+  REQUIRED
+  COMPONENTS Interpreter Development
+  PATH ${EXTERNAL_BUILD_PATH}
+)
+
+
+
+
+
+set(SOURCES
+	src/intern/main.cpp
+	src/intern/bsApplication.cpp
+	src/intern/bsApplication.h
+	src/
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+
+
+
+
+set(QT_DEBUG_PLUGINS ON)
+
+set(SKIP_BUILD_RPATH true)
+set_target_properties(${PROJECT_NAME} PROPERTIES INSTALL_RPATH "${QT6_RPATH}")
+
+set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME bsApplication)
+set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_OUTPUT_NAME bsApplication)
+
+
+
+target_link_libraries(${PROJECT_NAME} PUBLIC Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
+target_include_directories(${PROJECT_NAME} PUBLIC Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
+target_link_libraries(${PROJECT_NAME} PUBLIC Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
+
+target_include_directories(TestPython PRIVATE Python_INCLUDE_DIRS)
+
+target_link_directories(TestPython PRIVATE Python_LIBARY_DIRS)
+target_link_libraries(TestPython PRIVATE Python_LIBRARIES)
+       
+set_target_properties(LIB_GLFW_EXAMPLE_CBASIC PROPERTIES RELEASE_OUTPUT_NAME ${LIB_GLFW_EXAMPLE_CBASIC_RELEASE_OUTPUT_NAME})
+set_target_properties(LIB_GLFW_EXAMPLE_CBASIC PROPERTIES DEBUG_OUTPUT_NAME ${LIB_GLFW_EXAMPLE_CBASIC_DEBUG_OUTPUT_NAME})
+
+
+#add_dependencies(TestPyton cpython)
+
+
+install(
+  TARGETS TestPython
+  RUNTIME DESTINATION ${CMAKE_SOURCE_DIR}/out
+)
+
+
+
+install(
+		TARGETS ${PROJECT_NAME} 
+		RUNTIME DESTINATION ${PROJECT_SOURCE_DIR}/out
+)

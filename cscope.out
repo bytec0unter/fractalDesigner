@@ -1,0 +1,452 @@
+cscope 15 /media/stuv/PROJECTS/programming/cpp/fractalDesigner/fractalDesigner               0000002305
+	@src/intern/bsApplication.cpp
+
+2 
+	~"bsAµliÿtiÚ.h
+"
+
+7 
+	gRa¡”Wšdow
+::
+	$Ra¡”Wšdow
+(
+QWšdow
+ *
+·»Á
+)
+
+8 : 
+	`QWšdow
+(
+·»Á
+)
+
+9 , 
+	`m_backšgStÜe
+(
+Ãw
+ 
+	$QBackšgStÜe
+(
+this
+))
+
+11 
+	`£tGeom‘ry
+(100, 100, 300, 200);
+
+12 
+	}
+}
+
+17 
+boÞ
+ 
+	gRa¡”Wšdow
+::
+	$ev’t
+(
+QEv’t
+ *
+ev’t
+)
+
+19 ià(
+ev’t
+->
+	`ty³
+(è=ð
+QEv’t
+::
+Upd©eReque¡
+) {
+
+20 
+	`»nd”Now
+();
+
+21  
+Œue
+;
+
+23  
+QWšdow
+::
+	`ev’t
+(
+ev’t
+);
+
+24 
+	}
+}
+
+28 
+	gRa¡”Wšdow
+::
+	$»nd”L©”
+()
+
+30 
+	`»que¡Upd©e
+();
+
+31 
+	}
+}
+
+36 
+	gRa¡”Wšdow
+::
+	$»sizeEv’t
+(
+QResizeEv’t
+ *
+»sizeEv’t
+)
+
+38 
+m_backšgStÜe
+->
+	`»size
+(
+»sizeEv’t
+->
+	`size
+());
+
+39 
+	}
+}
+
+43 
+	gRa¡”Wšdow
+::
+	$expo£Ev’t
+(
+QExpo£Ev’t
+ *)
+
+45 ià(
+	`isExpo£d
+())
+
+46 
+	`»nd”Now
+();
+
+47 
+	}
+}
+
+52 
+	gRa¡”Wšdow
+::
+	$»nd”Now
+()
+
+54 ià(!
+	`isExpo£d
+())
+
+57 
+QReù
+ 
+	`»ù
+(0, 0, 
+	`width
+(), 
+	`height
+());
+
+58 
+m_backšgStÜe
+->
+	`begšPašt
+(
+»ù
+);
+
+60 
+QPaštDeviû
+ *
+deviû
+ = 
+m_backšgStÜe
+->
+	`·štDeviû
+();
+
+61 
+QPaš‹r
+ 
+	`·š‹r
+(
+deviû
+);
+
+63 
+·š‹r
+.
+	`fžlReù
+(0, 0, 
+	`width
+(), 
+	`height
+(), 
+QG¿d›Á
+::
+NightFade
+);
+
+64 
+	`»nd”
+(&
+·š‹r
+);
+
+65 
+·š‹r
+.
+	`’d
+();
+
+67 
+m_backšgStÜe
+->
+	`’dPašt
+();
+
+68 
+m_backšgStÜe
+->
+	`æush
+(
+»ù
+);
+
+69 
+	}
+}
+
+73 
+	gRa¡”Wšdow
+::
+	$»nd”
+(
+QPaš‹r
+ *
+·š‹r
+)
+
+75 
+·š‹r
+->
+	`d¿wText
+(
+	`QReùF
+(0, 0, 
+	`width
+(), 
+	`height
+()), 
+Qt
+::
+AlignC’‹r
+, 
+	`QSŒšgL™”®
+("QWindow"));
+
+76 
+	}
+}
+
+	@src/intern/bsApplication.h
+
+1 #iâdeà
+BSAPPLICATION_H
+
+
+2 
+	#BSAPPLICATION_H
+
+
+	)
+
+4 
+	~<QtGui
+>
+
+5 
+	~<QScÝedPoš‹r
+>
+
+7 þas 
+	cRa¡”Wšdow
+ : 
+public
+ 
+QWšdow
+
+
+9 
+Q_OBJECT
+
+
+10 
+public
+:
+
+11 
+ex¶ic™
+ 
+Ra¡”Wšdow
+(
+QWšdow
+ *
+·»Á
+ = 
+nuÎ±r
+);
+
+13 
+vœtu®
+ 
+»nd”
+(
+QPaš‹r
+ *
+·š‹r
+);
+
+15 
+public
+ 
+	m¦Ùs
+:
+
+16 
+»nd”L©”
+();
+
+17 
+»nd”Now
+();
+
+19 
+	m´Ùeùed
+:
+
+20 
+boÞ
+ 
+	$ev’t
+(
+QEv’t
+ *
+ev’t
+è
+ov”ride
+;
+
+22 
+	$»sizeEv’t
+(
+QResizeEv’t
+ *
+ev’t
+è
+ov”ride
+;
+
+23 
+	$expo£Ev’t
+(
+QExpo£Ev’t
+ *
+ev’t
+è
+ov”ride
+;
+
+25 
+´iv©e
+:
+
+26 
+QScÝedPoš‹r
+<
+QBackšgStÜe
+> 
+m_backšgStÜe
+;
+
+	@src/intern/bsVM/bsVM.cpp
+
+	@src/intern/bsVM/bsVM.h
+
+	@src/intern/bsVM/tests/build_test.cpp
+
+	@src/intern/main.cpp
+
+3 
+	~"bsAµliÿtiÚ.h
+"
+
+4 
+	~"PythÚ.h
+"
+
+7 
+	$maš
+(
+¬gc
+, **
+¬gv
+)
+
+9 
+QGuiAµliÿtiÚ
+ 
+	`­p
+(
+¬gc
+, 
+¬gv
+);
+
+11 
+Ra¡”Wšdow
+ 
+wšdow
+;
+
+12 
+wšdow
+.
+	`show
+();
+
+14  
+­p
+.
+	`exec
+();
+
+15 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+6
+161
+src/intern/bsApplication.cpp
+src/intern/bsApplication.h
+src/intern/bsVM/bsVM.cpp
+src/intern/bsVM/bsVM.h
+src/intern/bsVM/tests/build_test.cpp
+src/intern/main.cpp
