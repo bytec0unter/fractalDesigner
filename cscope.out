@@ -1,4 +1,3844 @@
-cscope 15 /media/stuv/PROJECTS/programming/cpp/fractalDesigner/fractalDesigner               0000002352
+cscope 15 /media/stuv/PROJECTS/programming/cpp/fractalDesigner/fractalDesigner               0000027304
+	@build/CMakeFiles/3.28.20231111-g33d372c/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
+4 #iâdeà
+__ýlu¥lus
+
+
+8 #ià!
+defšed
+(
+__has_šþude
+)
+
+11 
+	#__has_šþude
+(
+x
+è0
+
+	)
+
+18 #ià
+defšed
+(
+__INTEL_COMPILER
+è|| defšed(
+__ICC
+)
+
+19 
+	#COMPILER_ID
+ "IÁ–"
+
+	)
+
+20 #ià
+defšed
+(
+_MSC_VER
+)
+
+21 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+23 #ià
+defšed
+(
+__GNUC__
+)
+
+24 
+	#SIMULATE_ID
+ "GNU"
+
+	)
+
+28 #ià
+__INTEL_COMPILER
+ < 2021 || __INTEL_COMPILER == 202110 || __INTEL_COMPILER == 202111
+
+29 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+/100)
+
+	)
+
+30 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+/10 % 10)
+
+	)
+
+31 #ià
+defšed
+(
+__INTEL_COMPILER_UPDATE
+)
+
+32 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_COMPILER_UPDATE
+)
+
+	)
+
+34 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_COMPILER
+ % 10)
+
+	)
+
+37 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+)
+
+	)
+
+38 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_COMPILER_UPDATE
+)
+
+	)
+
+41 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(0)
+
+	)
+
+43 #ià
+defšed
+(
+__INTEL_COMPILER_BUILD_DATE
+)
+
+45 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__INTEL_COMPILER_BUILD_DATE
+)
+
+	)
+
+47 #ià
+defšed
+(
+_MSC_VER
+)
+
+49 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+50 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+52 #ià
+defšed
+(
+__GNUC__
+)
+
+53 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+54 #–ià
+defšed
+(
+__GNUG__
+)
+
+55 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+57 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+58 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+60 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+61 
+	#SIMULATE_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+64 #–ià(
+defšed
+(
+__þªg__
+è&& defšed(
+__INTEL_CLANG_COMPILER
+)è|| defšed(
+__INTEL_LLVM_COMPILER
+)
+
+65 
+	#COMPILER_ID
+ "IÁ–LLVM"
+
+	)
+
+66 #ià
+defšed
+(
+_MSC_VER
+)
+
+67 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+69 #ià
+defšed
+(
+__GNUC__
+)
+
+70 
+	#SIMULATE_ID
+ "GNU"
+
+	)
+
+76 #ià
+__INTEL_LLVM_COMPILER
+ < 1000000L
+
+77 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/100)
+
+	)
+
+78 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/10 % 10)
+
+	)
+
+79 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+ % 10)
+
+	)
+
+81 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/10000)
+
+	)
+
+82 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/100 % 100)
+
+	)
+
+83 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+ % 100)
+
+	)
+
+85 #ià
+defšed
+(
+_MSC_VER
+)
+
+87 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+88 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+90 #ià
+defšed
+(
+__GNUC__
+)
+
+91 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+92 #–ià
+defšed
+(
+__GNUG__
+)
+
+93 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+95 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+96 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+98 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+99 
+	#SIMULATE_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+102 #–ià
+defšed
+(
+__PATHCC__
+)
+
+103 
+	#COMPILER_ID
+ "P©hSÿË"
+
+	)
+
+104 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__PATHCC__
+)
+
+	)
+
+105 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__PATHCC_MINOR__
+)
+
+	)
+
+106 #ià
+defšed
+(
+__PATHCC_PATCHLEVEL__
+)
+
+107 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__PATHCC_PATCHLEVEL__
+)
+
+	)
+
+110 #–ià
+defšed
+(
+__BORLANDC__
+è&& defšed(
+__CODEGEARC_VERSION__
+)
+
+111 
+	#COMPILER_ID
+ "Emb¬ÿd”o"
+
+	)
+
+112 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__CODEGEARC_VERSION__
+>>24 & 0x00FF)
+
+	)
+
+113 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__CODEGEARC_VERSION__
+>>16 & 0x00FF)
+
+	)
+
+114 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__CODEGEARC_VERSION__
+ & 0xFFFF)
+
+	)
+
+116 #–ià
+defšed
+(
+__BORLANDC__
+)
+
+117 
+	#COMPILER_ID
+ "BÜÏnd"
+
+	)
+
+119 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__BORLANDC__
+>>8)
+
+	)
+
+120 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__BORLANDC__
+ & 0xFF)
+
+	)
+
+122 #–ià
+defšed
+(
+__WATCOMC__
+) && __WATCOMC__ < 1200
+
+123 
+	#COMPILER_ID
+ "W©com"
+
+	)
+
+125 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__WATCOMC__
+ / 100)
+
+	)
+
+126 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__WATCOMC__
+ / 10è% 10)
+
+	)
+
+127 #ià(
+__WATCOMC__
+ % 10) > 0
+
+128 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__WATCOMC__
+ % 10)
+
+	)
+
+131 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+132 
+	#COMPILER_ID
+ "O³nW©com"
+
+	)
+
+134 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__WATCOMC__
+ - 1100è/ 100)
+
+	)
+
+135 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__WATCOMC__
+ / 10è% 10)
+
+	)
+
+136 #ià(
+__WATCOMC__
+ % 10) > 0
+
+137 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__WATCOMC__
+ % 10)
+
+	)
+
+140 #–ià
+defšed
+(
+__SUNPRO_CC
+)
+
+141 
+	#COMPILER_ID
+ "SunPro"
+
+	)
+
+142 #ià
+__SUNPRO_CC
+ >= 0x5100
+
+144 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>12)
+
+	)
+
+145 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>4 & 0xFF)
+
+	)
+
+146 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__SUNPRO_CC
+ & 0xF)
+
+	)
+
+149 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>8)
+
+	)
+
+150 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>4 & 0xF)
+
+	)
+
+151 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__SUNPRO_CC
+ & 0xF)
+
+	)
+
+154 #–ià
+defšed
+(
+__HP_aCC
+)
+
+155 
+	#COMPILER_ID
+ "HP"
+
+	)
+
+157 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__HP_aCC
+/10000)
+
+	)
+
+158 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__HP_aCC
+/100 % 100)
+
+	)
+
+159 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__HP_aCC
+ % 100)
+
+	)
+
+161 #–ià
+defšed
+(
+__DECCXX
+)
+
+162 
+	#COMPILER_ID
+ "Com·q"
+
+	)
+
+164 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__DECCXX_VER
+/10000000)
+
+	)
+
+165 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__DECCXX_VER
+/100000 % 100)
+
+	)
+
+166 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__DECCXX_VER
+ % 10000)
+
+	)
+
+168 #–ià
+defšed
+(
+__IBMCPP__
+è&& defšed(
+__COMPILER_VER__
+)
+
+169 
+	#COMPILER_ID
+ "zOS"
+
+	)
+
+171 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMCPP__
+/100)
+
+	)
+
+172 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMCPP__
+/10 % 10)
+
+	)
+
+173 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMCPP__
+ % 10)
+
+	)
+
+175 #–ià
+defšed
+(
+__Ý’_xl__
+è&& defšed(
+__þªg__
+)
+
+176 
+	#COMPILER_ID
+ "IBMCÏng"
+
+	)
+
+177 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__Ý’_xl_v”siÚ__
+)
+
+	)
+
+178 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__Ý’_xl_»Ëa£__
+)
+
+	)
+
+179 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__Ý’_xl_modifiÿtiÚ__
+)
+
+	)
+
+180 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__Ý’_xl_±f_fix_Ëv–__
+)
+
+	)
+
+183 #–ià
+defšed
+(
+__ibmxl__
+è&& defšed(
+__þªg__
+)
+
+184 
+	#COMPILER_ID
+ "XLCÏng"
+
+	)
+
+185 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ibmxl_v”siÚ__
+)
+
+	)
+
+186 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ibmxl_»Ëa£__
+)
+
+	)
+
+187 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ibmxl_modifiÿtiÚ__
+)
+
+	)
+
+188 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__ibmxl_±f_fix_Ëv–__
+)
+
+	)
+
+191 #–ià
+defšed
+(
+__IBMCPP__
+è&& !defšed(
+__COMPILER_VER__
+) && __IBMCPP__ >= 800
+
+192 
+	#COMPILER_ID
+ "XL"
+
+	)
+
+194 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMCPP__
+/100)
+
+	)
+
+195 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMCPP__
+/10 % 10)
+
+	)
+
+196 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMCPP__
+ % 10)
+
+	)
+
+198 #–ià
+defšed
+(
+__IBMCPP__
+è&& !defšed(
+__COMPILER_VER__
+) && __IBMCPP__ < 800
+
+199 
+	#COMPILER_ID
+ "Visu®Age"
+
+	)
+
+201 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMCPP__
+/100)
+
+	)
+
+202 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMCPP__
+/10 % 10)
+
+	)
+
+203 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMCPP__
+ % 10)
+
+	)
+
+205 #–ià
+defšed
+(
+__NVCOMPILER
+)
+
+206 
+	#COMPILER_ID
+ "NVHPC"
+
+	)
+
+207 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__NVCOMPILER_MAJOR__
+)
+
+	)
+
+208 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__NVCOMPILER_MINOR__
+)
+
+	)
+
+209 #ià
+defšed
+(
+__NVCOMPILER_PATCHLEVEL__
+)
+
+210 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__NVCOMPILER_PATCHLEVEL__
+)
+
+	)
+
+213 #–ià
+defšed
+(
+__PGI
+)
+
+214 
+	#COMPILER_ID
+ "PGI"
+
+	)
+
+215 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__PGIC__
+)
+
+	)
+
+216 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__PGIC_MINOR__
+)
+
+	)
+
+217 #ià
+defšed
+(
+__PGIC_PATCHLEVEL__
+)
+
+218 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__PGIC_PATCHLEVEL__
+)
+
+	)
+
+221 #–ià
+defšed
+(
+__þªg__
+è&& defšed(
+__üay__
+)
+
+222 
+	#COMPILER_ID
+ "C¿yCÏng"
+
+	)
+
+223 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__üay_majÜ__
+)
+
+	)
+
+224 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__üay_mšÜ__
+)
+
+	)
+
+225 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__üay_·tchËv–__
+)
+
+	)
+
+226 
+	#COMPILER_VERSION_INTERNAL_STR
+ 
+__þªg_v”siÚ__
+
+
+	)
+
+229 #–ià
+defšed
+(
+_CRAYC
+)
+
+230 
+	#COMPILER_ID
+ "C¿y"
+
+	)
+
+231 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+_RELEASE_MAJOR
+)
+
+	)
+
+232 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+_RELEASE_MINOR
+)
+
+	)
+
+234 #–ià
+defšed
+(
+__TI_COMPILER_VERSION__
+)
+
+235 
+	#COMPILER_ID
+ "TI"
+
+	)
+
+237 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+/1000000)
+
+	)
+
+238 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+/1000 % 1000)
+
+	)
+
+239 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+ % 1000)
+
+	)
+
+241 #–ià
+defšed
+(
+__CLANG_FUJITSU
+)
+
+242 
+	#COMPILER_ID
+ "Fuj™suCÏng"
+
+	)
+
+243 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__FCC_majÜ__
+)
+
+	)
+
+244 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__FCC_mšÜ__
+)
+
+	)
+
+245 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__FCC_·tchËv–__
+)
+
+	)
+
+246 
+	#COMPILER_VERSION_INTERNAL_STR
+ 
+__þªg_v”siÚ__
+
+
+	)
+
+249 #–ià
+defšed
+(
+__FUJITSU
+)
+
+250 
+	#COMPILER_ID
+ "Fuj™su"
+
+	)
+
+251 #ià
+defšed
+(
+__FCC_v”siÚ__
+)
+
+252 
+	#COMPILER_VERSION
+ 
+__FCC_v”siÚ__
+
+
+	)
+
+253 #–ià
+defšed
+(
+__FCC_majÜ__
+)
+
+254 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__FCC_majÜ__
+)
+
+	)
+
+255 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__FCC_mšÜ__
+)
+
+	)
+
+256 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__FCC_·tchËv–__
+)
+
+	)
+
+258 #ià
+defšed
+(
+__fcc_v”siÚ
+)
+
+259 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__fcc_v”siÚ
+)
+
+	)
+
+260 #–ià
+defšed
+(
+__FCC_VERSION
+)
+
+261 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__FCC_VERSION
+)
+
+	)
+
+265 #–ià
+defšed
+(
+__ghs__
+)
+
+266 
+	#COMPILER_ID
+ "GHS"
+
+	)
+
+268 #ifdeà
+__GHS_VERSION_NUMBER
+
+
+269 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ / 100)
+
+	)
+
+270 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ / 10 % 10)
+
+	)
+
+271 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ % 10)
+
+	)
+
+274 #–ià
+defšed
+(
+__TASKING__
+)
+
+275 
+	#COMPILER_ID
+ "Taskšg"
+
+	)
+
+276 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__VERSION__
+/1000)
+
+	)
+
+277 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__VERSION__
+ % 100)
+
+	)
+
+278 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__VERSION__
+)
+
+	)
+
+280 #–ià
+defšed
+(
+__ORANGEC__
+)
+
+281 
+	#COMPILER_ID
+ "O¿ngeC"
+
+	)
+
+282 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ORANGEC_MAJOR__
+)
+
+	)
+
+283 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ORANGEC_MINOR__
+)
+
+	)
+
+284 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ORANGEC_PATCHLEVEL__
+)
+
+	)
+
+286 #–ià
+defšed
+(
+__SCO_VERSION__
+)
+
+287 
+	#COMPILER_ID
+ "SCO"
+
+	)
+
+289 #–ià
+defšed
+(
+__ARMCC_VERSION
+è&& !defšed(
+__þªg__
+)
+
+290 
+	#COMPILER_ID
+ "ARMCC"
+
+	)
+
+291 #ià
+__ARMCC_VERSION
+ >= 1000000
+
+293 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/1000000)
+
+	)
+
+294 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/10000 % 100)
+
+	)
+
+295 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCC_VERSION
+ % 10000)
+
+	)
+
+298 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/100000)
+
+	)
+
+299 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/10000 % 10)
+
+	)
+
+300 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCC_VERSION
+ % 10000)
+
+	)
+
+304 #–ià
+defšed
+(
+__þªg__
+è&& defšed(
+__­¶e_bužd_v”siÚ__
+)
+
+305 
+	#COMPILER_ID
+ "AµËCÏng"
+
+	)
+
+306 #ià
+defšed
+(
+_MSC_VER
+)
+
+307 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+309 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__þªg_majÜ__
+)
+
+	)
+
+310 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__þªg_mšÜ__
+)
+
+	)
+
+311 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__þªg_·tchËv–__
+)
+
+	)
+
+312 #ià
+defšed
+(
+_MSC_VER
+)
+
+314 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+315 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+317 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__­¶e_bužd_v”siÚ__
+)
+
+	)
+
+319 #–ià
+defšed
+(
+__þªg__
+è&& defšed(
+__ARMCOMPILER_VERSION
+)
+
+320 
+	#COMPILER_ID
+ "ARMCÏng"
+
+	)
+
+321 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+/1000000)
+
+	)
+
+322 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+/10000 % 100)
+
+	)
+
+323 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+/100 % 100)
+
+	)
+
+324 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+)
+
+	)
+
+326 #–ià
+defšed
+(
+__þªg__
+)
+
+327 
+	#COMPILER_ID
+ "CÏng"
+
+	)
+
+328 #ià
+defšed
+(
+_MSC_VER
+)
+
+329 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+331 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__þªg_majÜ__
+)
+
+	)
+
+332 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__þªg_mšÜ__
+)
+
+	)
+
+333 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__þªg_·tchËv–__
+)
+
+	)
+
+334 #ià
+defšed
+(
+_MSC_VER
+)
+
+336 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+337 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+340 #–ià
+defšed
+(
+__LCC__
+è&& (defšed(
+__GNUC__
+è|| defšed(
+__GNUG__
+è|| defšed(
+__MCST__
+))
+
+341 
+	#COMPILER_ID
+ "LCC"
+
+	)
+
+342 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__LCC__
+ / 100)
+
+	)
+
+343 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__LCC__
+ % 100)
+
+	)
+
+344 #ià
+defšed
+(
+__LCC_MINOR__
+)
+
+345 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__LCC_MINOR__
+)
+
+	)
+
+347 #ià
+defšed
+(
+__GNUC__
+è&& defšed(
+__GNUC_MINOR__
+)
+
+348 
+	#SIMULATE_ID
+ "GNU"
+
+	)
+
+349 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+350 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+351 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+352 
+	#SIMULATE_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+356 #–ià
+defšed
+(
+__GNUC__
+è|| defšed(
+__GNUG__
+)
+
+357 
+	#COMPILER_ID
+ "GNU"
+
+	)
+
+358 #ià
+defšed
+(
+__GNUC__
+)
+
+359 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+361 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+363 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+364 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+366 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+367 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+370 #–ià
+defšed
+(
+_MSC_VER
+)
+
+371 
+	#COMPILER_ID
+ "MSVC"
+
+	)
+
+373 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+374 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+375 #ià
+defšed
+(
+_MSC_FULL_VER
+)
+
+376 #ià
+_MSC_VER
+ >= 1400
+
+378 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+_MSC_FULL_VER
+ % 100000)
+
+	)
+
+381 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+_MSC_FULL_VER
+ % 10000)
+
+	)
+
+384 #ià
+defšed
+(
+_MSC_BUILD
+)
+
+385 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+_MSC_BUILD
+)
+
+	)
+
+388 #–ià
+defšed
+(
+_ADI_COMPILER
+)
+
+389 
+	#COMPILER_ID
+ "ADSP"
+
+	)
+
+390 #ià
+defšed
+(
+__VERSIONNUM__
+)
+
+392 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__VERSIONNUM__
+ >> 24 & 0xFF)
+
+	)
+
+393 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__VERSIONNUM__
+ >> 16 & 0xFF)
+
+	)
+
+394 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__VERSIONNUM__
+ >> 8 & 0xFF)
+
+	)
+
+395 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__VERSIONNUM__
+ & 0xFF)
+
+	)
+
+398 #–ià
+defšed
+(
+__IAR_SYSTEMS_ICC__
+è|| defšed(
+__IAR_SYSTEMS_ICC
+)
+
+399 
+	#COMPILER_ID
+ "IAR"
+
+	)
+
+400 #ià
+defšed
+(
+__VER__
+è&& defšed(
+__ICCARM__
+)
+
+401 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__VER__
+è/ 1000000)
+
+	)
+
+402 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(((
+__VER__
+è/ 1000è% 1000)
+
+	)
+
+403 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+((
+__VER__
+è% 1000)
+
+	)
+
+404 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__IAR_SYSTEMS_ICC__
+)
+
+	)
+
+405 #–ià
+defšed
+(
+__VER__
+è&& (defšed(
+__ICCAVR__
+è|| defšed(
+__ICCRX__
+è|| defšed(
+__ICCRH850__
+è|| defšed(
+__ICCRL78__
+è|| defšed(
+__ICC430__
+è|| defšed(
+__ICCRISCV__
+è|| defšed(
+__ICCV850__
+è|| defšed(
+__ICC8051__
+è|| defšed(
+__ICCSTM8__
+))
+
+406 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__VER__
+è/ 100)
+
+	)
+
+407 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__VER__
+è- (((__VER__è/ 100)*100))
+
+	)
+
+408 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__SUBVERSION__
+)
+
+	)
+
+409 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__IAR_SYSTEMS_ICC__
+)
+
+	)
+
+416 #–ià
+defšed
+(
+__hpux
+è|| defšed(
+__hpua
+)
+
+417 
+	#COMPILER_ID
+ "HP"
+
+	)
+
+420 
+	#COMPILER_ID
+ ""
+
+	)
+
+427 cÚ¡* 
+	gšfo_compž”
+ = "INFO" ":" "compž”[" 
+COMPILER_ID
+ "]";
+
+428 #ifdeà
+SIMULATE_ID
+
+
+429 cÚ¡* 
+	gšfo_simuÏ‹
+ = "INFO" ":" "simuÏ‹[" 
+SIMULATE_ID
+ "]";
+
+432 #ifdeà
+__QNXNTO__
+
+
+433 cÚ¡* 
+	gqnxÁo
+ = "INFO" ":" "qnxnto[]";
+
+436 #ià
+defšed
+(
+__CRAYXT_COMPUTE_LINUX_TARGET
+)
+
+437 cÚ¡ *
+	gšfo_üay
+ = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+
+440 
+	#STRINGIFY_HELPER
+(
+X
+è#X
+
+	)
+
+441 
+	#STRINGIFY
+(
+X
+è
+	`STRINGIFY_HELPER
+(X)
+
+	)
+
+444 #ià
+defšed
+(
+__lšux
+è|| defšed(
+__lšux__
+è|| defšed(
+lšux
+)
+
+445 
+	#PLATFORM_ID
+ "Lšux"
+
+	)
+
+447 #–ià
+defšed
+(
+__MSYS__
+)
+
+448 
+	#PLATFORM_ID
+ "MSYS"
+
+	)
+
+450 #–ià
+defšed
+(
+__CYGWIN__
+)
+
+451 
+	#PLATFORM_ID
+ "Cygwš"
+
+	)
+
+453 #–ià
+defšed
+(
+__MINGW32__
+)
+
+454 
+	#PLATFORM_ID
+ "MšGW"
+
+	)
+
+456 #–ià
+defšed
+(
+__APPLE__
+)
+
+457 
+	#PLATFORM_ID
+ "D¬wš"
+
+	)
+
+459 #–ià
+defšed
+(
+_WIN32
+è|| defšed(
+__WIN32__
+è|| defšed(
+WIN32
+)
+
+460 
+	#PLATFORM_ID
+ "Wšdows"
+
+	)
+
+462 #–ià
+defšed
+(
+__F»eBSD__
+è|| defšed(
+__F»eBSD
+)
+
+463 
+	#PLATFORM_ID
+ "F»eBSD"
+
+	)
+
+465 #–ià
+defšed
+(
+__N‘BSD__
+è|| defšed(
+__N‘BSD
+)
+
+466 
+	#PLATFORM_ID
+ "N‘BSD"
+
+	)
+
+468 #–ià
+defšed
+(
+__O³nBSD__
+è|| defšed(
+__OPENBSD
+)
+
+469 
+	#PLATFORM_ID
+ "O³nBSD"
+
+	)
+
+471 #–ià
+defšed
+(
+__sun
+è|| defšed(
+sun
+)
+
+472 
+	#PLATFORM_ID
+ "SunOS"
+
+	)
+
+474 #–ià
+defšed
+(
+_AIX
+è|| defšed(
+__AIX
+è|| defšed(
+__AIX__
+è|| defšed(
+__aix
+è|| defšed(
+__aix__
+)
+
+475 
+	#PLATFORM_ID
+ "AIX"
+
+	)
+
+477 #–ià
+defšed
+(
+__hpux
+è|| defšed(
+__hpux__
+)
+
+478 
+	#PLATFORM_ID
+ "HP-UX"
+
+	)
+
+480 #–ià
+defšed
+(
+__HAIKU__
+)
+
+481 
+	#PLATFORM_ID
+ "Haiku"
+
+	)
+
+483 #–ià
+defšed
+(
+__BeOS
+è|| defšed(
+__BEOS__
+è|| defšed(
+_BEOS
+)
+
+484 
+	#PLATFORM_ID
+ "BeOS"
+
+	)
+
+486 #–ià
+defšed
+(
+__QNX__
+è|| defšed(
+__QNXNTO__
+)
+
+487 
+	#PLATFORM_ID
+ "QNX"
+
+	)
+
+489 #–ià
+defšed
+(
+__Œu64
+è|| defšed(
+_Œu64
+è|| defšed(
+__TRU64__
+)
+
+490 
+	#PLATFORM_ID
+ "Tru64"
+
+	)
+
+492 #–ià
+defšed
+(
+__riscos
+è|| defšed(
+__riscos__
+)
+
+493 
+	#PLATFORM_ID
+ "RISCos"
+
+	)
+
+495 #–ià
+defšed
+(
+__sšix
+è|| defšed(
+__sšix__
+è|| defšed(
+__SINIX__
+)
+
+496 
+	#PLATFORM_ID
+ "SINIX"
+
+	)
+
+498 #–ià
+defšed
+(
+__UNIX_SV__
+)
+
+499 
+	#PLATFORM_ID
+ "UNIX_SV"
+
+	)
+
+501 #–ià
+defšed
+(
+__bsdos__
+)
+
+502 
+	#PLATFORM_ID
+ "BSDOS"
+
+	)
+
+504 #–ià
+defšed
+(
+_MPRAS
+è|| defšed(
+MPRAS
+)
+
+505 
+	#PLATFORM_ID
+ "MP-RAS"
+
+	)
+
+507 #–ià
+defšed
+(
+__osf
+è|| defšed(
+__osf__
+)
+
+508 
+	#PLATFORM_ID
+ "OSF1"
+
+	)
+
+510 #–ià
+defšed
+(
+_SCO_SV
+è|| defšed(
+SCO_SV
+è|| defšed(
+sco_sv
+)
+
+511 
+	#PLATFORM_ID
+ "SCO_SV"
+
+	)
+
+513 #–ià
+defšed
+(
+__uÉrix
+è|| defšed(
+__uÉrix__
+è|| defšed(
+_ULTRIX
+)
+
+514 
+	#PLATFORM_ID
+ "ULTRIX"
+
+	)
+
+516 #–ià
+defšed
+(
+__XENIX__
+è|| defšed(
+_XENIX
+è|| defšed(
+XENIX
+)
+
+517 
+	#PLATFORM_ID
+ "X’ix"
+
+	)
+
+519 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+520 #ià
+defšed
+(
+__LINUX__
+)
+
+521 
+	#PLATFORM_ID
+ "Lšux"
+
+	)
+
+523 #–ià
+defšed
+(
+__DOS__
+)
+
+524 
+	#PLATFORM_ID
+ "DOS"
+
+	)
+
+526 #–ià
+defšed
+(
+__OS2__
+)
+
+527 
+	#PLATFORM_ID
+ "OS2"
+
+	)
+
+529 #–ià
+defšed
+(
+__WINDOWS__
+)
+
+530 
+	#PLATFORM_ID
+ "Wšdows3x"
+
+	)
+
+532 #–ià
+defšed
+(
+__VXWORKS__
+)
+
+533 
+	#PLATFORM_ID
+ "VxWÜks"
+
+	)
+
+536 
+	#PLATFORM_ID
+
+
+	)
+
+539 #–ià
+defšed
+(
+__INTEGRITY
+)
+
+540 #ià
+defšed
+(
+INT_178B
+)
+
+541 
+	#PLATFORM_ID
+ "IÁegr™y178"
+
+	)
+
+544 
+	#PLATFORM_ID
+ "IÁegr™y"
+
+	)
+
+547 #–ià
+defšed
+(
+_ADI_COMPILER
+)
+
+548 
+	#PLATFORM_ID
+ "ADSP"
+
+	)
+
+551 
+	#PLATFORM_ID
+
+
+	)
+
+560 #ià
+defšed
+(
+_WIN32
+è&& defšed(
+_MSC_VER
+)
+
+561 #ià
+defšed
+(
+_M_IA64
+)
+
+562 
+	#ARCHITECTURE_ID
+ "IA64"
+
+	)
+
+564 #–ià
+defšed
+(
+_M_ARM64EC
+)
+
+565 
+	#ARCHITECTURE_ID
+ "ARM64EC"
+
+	)
+
+567 #–ià
+defšed
+(
+_M_X64
+è|| defšed(
+_M_AMD64
+)
+
+568 
+	#ARCHITECTURE_ID
+ "x64"
+
+	)
+
+570 #–ià
+defšed
+(
+_M_IX86
+)
+
+571 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+573 #–ià
+defšed
+(
+_M_ARM64
+)
+
+574 
+	#ARCHITECTURE_ID
+ "ARM64"
+
+	)
+
+576 #–ià
+defšed
+(
+_M_ARM
+)
+
+577 #ià
+_M_ARM
+ == 4
+
+578 
+	#ARCHITECTURE_ID
+ "ARMV4I"
+
+	)
+
+579 #–ià
+_M_ARM
+ == 5
+
+580 
+	#ARCHITECTURE_ID
+ "ARMV5I"
+
+	)
+
+582 
+	#ARCHITECTURE_ID
+ "ARMV" 
+	`STRINGIFY
+(
+_M_ARM
+)
+
+	)
+
+585 #–ià
+defšed
+(
+_M_MIPS
+)
+
+586 
+	#ARCHITECTURE_ID
+ "MIPS"
+
+	)
+
+588 #–ià
+defšed
+(
+_M_SH
+)
+
+589 
+	#ARCHITECTURE_ID
+ "SHx"
+
+	)
+
+592 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+595 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+596 #ià
+defšed
+(
+_M_I86
+)
+
+597 
+	#ARCHITECTURE_ID
+ "I86"
+
+	)
+
+599 #–ià
+defšed
+(
+_M_IX86
+)
+
+600 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+603 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+606 #–ià
+defšed
+(
+__IAR_SYSTEMS_ICC__
+è|| defšed(
+__IAR_SYSTEMS_ICC
+)
+
+607 #ià
+defšed
+(
+__ICCARM__
+)
+
+608 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+610 #–ià
+defšed
+(
+__ICCRX__
+)
+
+611 
+	#ARCHITECTURE_ID
+ "RX"
+
+	)
+
+613 #–ià
+defšed
+(
+__ICCRH850__
+)
+
+614 
+	#ARCHITECTURE_ID
+ "RH850"
+
+	)
+
+616 #–ià
+defšed
+(
+__ICCRL78__
+)
+
+617 
+	#ARCHITECTURE_ID
+ "RL78"
+
+	)
+
+619 #–ià
+defšed
+(
+__ICCRISCV__
+)
+
+620 
+	#ARCHITECTURE_ID
+ "RISCV"
+
+	)
+
+622 #–ià
+defšed
+(
+__ICCAVR__
+)
+
+623 
+	#ARCHITECTURE_ID
+ "AVR"
+
+	)
+
+625 #–ià
+defšed
+(
+__ICC430__
+)
+
+626 
+	#ARCHITECTURE_ID
+ "MSP430"
+
+	)
+
+628 #–ià
+defšed
+(
+__ICCV850__
+)
+
+629 
+	#ARCHITECTURE_ID
+ "V850"
+
+	)
+
+631 #–ià
+defšed
+(
+__ICC8051__
+)
+
+632 
+	#ARCHITECTURE_ID
+ "8051"
+
+	)
+
+634 #–ià
+defšed
+(
+__ICCSTM8__
+)
+
+635 
+	#ARCHITECTURE_ID
+ "STM8"
+
+	)
+
+638 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+641 #–ià
+defšed
+(
+__ghs__
+)
+
+642 #ià
+defšed
+(
+__PPC64__
+)
+
+643 
+	#ARCHITECTURE_ID
+ "PPC64"
+
+	)
+
+645 #–ià
+defšed
+(
+__µc__
+)
+
+646 
+	#ARCHITECTURE_ID
+ "PPC"
+
+	)
+
+648 #–ià
+defšed
+(
+__ARM__
+)
+
+649 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+651 #–ià
+defšed
+(
+__x86_64__
+)
+
+652 
+	#ARCHITECTURE_ID
+ "x64"
+
+	)
+
+654 #–ià
+defšed
+(
+__i386__
+)
+
+655 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+658 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+661 #–ià
+defšed
+(
+__TI_COMPILER_VERSION__
+)
+
+662 #ià
+defšed
+(
+__TI_ARM__
+)
+
+663 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+665 #–ià
+defšed
+(
+__MSP430__
+)
+
+666 
+	#ARCHITECTURE_ID
+ "MSP430"
+
+	)
+
+668 #–ià
+defšed
+(
+__TMS320C28XX__
+)
+
+669 
+	#ARCHITECTURE_ID
+ "TMS320C28x"
+
+	)
+
+671 #–ià
+defšed
+(
+__TMS320C6X__
+è|| defšed(
+_TMS320C6X
+)
+
+672 
+	#ARCHITECTURE_ID
+ "TMS320C6x"
+
+	)
+
+675 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+678 #–ià
+defšed
+(
+__ADSPSHARC__
+)
+
+679 
+	#ARCHITECTURE_ID
+ "SHARC"
+
+	)
+
+681 #–ià
+defšed
+(
+__ADSPBLACKFIN__
+)
+
+682 
+	#ARCHITECTURE_ID
+ "BÏckfš"
+
+	)
+
+684 #–ià
+defšed
+(
+__TASKING__
+)
+
+686 #ià
+defšed
+(
+__CTC__
+è|| defšed(
+__CPTC__
+)
+
+687 
+	#ARCHITECTURE_ID
+ "TriCÜe"
+
+	)
+
+689 #–ià
+defšed
+(
+__CMCS__
+)
+
+690 
+	#ARCHITECTURE_ID
+ "MCS"
+
+	)
+
+692 #–ià
+defšed
+(
+__CARM__
+)
+
+693 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+695 #–ià
+defšed
+(
+__CARC__
+)
+
+696 
+	#ARCHITECTURE_ID
+ "ARC"
+
+	)
+
+698 #–ià
+defšed
+(
+__C51__
+)
+
+699 
+	#ARCHITECTURE_ID
+ "8051"
+
+	)
+
+701 #–ià
+defšed
+(
+__CPCP__
+)
+
+702 
+	#ARCHITECTURE_ID
+ "PCP"
+
+	)
+
+705 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+709 
+	#ARCHITECTURE_ID
+
+
+	)
+
+713 
+	#DEC
+(
+n
+) \
+
+714 ('0' + (((
+n
+) / 10000000)%10)), \
+
+715 ('0' + (((
+n
+) / 1000000)%10)), \
+
+716 ('0' + (((
+n
+) / 100000)%10)), \
+
+717 ('0' + (((
+n
+) / 10000)%10)), \
+
+718 ('0' + (((
+n
+) / 1000)%10)), \
+
+719 ('0' + (((
+n
+) / 100)%10)), \
+
+720 ('0' + (((
+n
+) / 10)%10)), \
+
+721 ('0' + ((
+n
+è% 10))
+
+	)
+
+724 
+	#HEX
+(
+n
+) \
+
+725 ('0' + ((
+n
+)>>28 & 0xF)), \
+
+726 ('0' + ((
+n
+)>>24 & 0xF)), \
+
+727 ('0' + ((
+n
+)>>20 & 0xF)), \
+
+728 ('0' + ((
+n
+)>>16 & 0xF)), \
+
+729 ('0' + ((
+n
+)>>12 & 0xF)), \
+
+730 ('0' + ((
+n
+)>>8 & 0xF)), \
+
+731 ('0' + ((
+n
+)>>4 & 0xF)), \
+
+732 ('0' + ((
+n
+è& 0xF))
+
+	)
+
+735 #ifdeà
+COMPILER_VERSION
+
+
+736 cÚ¡* 
+	gšfo_v”siÚ
+ = "INFO" ":" "compž”_v”siÚ[" 
+COMPILER_VERSION
+ "]";
+
+739 #–ià
+defšed
+(
+COMPILER_VERSION_MAJOR
+)
+
+740 cÚ¡ 
+	gšfo_v”siÚ
+[] = {
+
+743 
+COMPILER_VERSION_MAJOR
+,
+
+744 #ifdeà
+COMPILER_VERSION_MINOR
+
+
+745 '.', 
+COMPILER_VERSION_MINOR
+,
+
+746 #ifdeà
+COMPILER_VERSION_PATCH
+
+
+747 '.', 
+COMPILER_VERSION_PATCH
+,
+
+748 #ifdeà
+COMPILER_VERSION_TWEAK
+
+
+749 '.', 
+COMPILER_VERSION_TWEAK
+,
+
+757 #ifdeà
+COMPILER_VERSION_INTERNAL
+
+
+758 cÚ¡ 
+	gšfo_v”siÚ_š‹º®
+[] = {
+
+762 
+COMPILER_VERSION_INTERNAL
+,']','\0'};
+
+763 #–ià
+defšed
+(
+COMPILER_VERSION_INTERNAL_STR
+)
+
+764 cÚ¡* 
+	gšfo_v”siÚ_š‹º®
+ = "INFO" ":" "compž”_v”siÚ_š‹º®[" 
+COMPILER_VERSION_INTERNAL_STR
+ "]";
+
+768 #ifdeà
+SIMULATE_VERSION_MAJOR
+
+
+769 cÚ¡ 
+	gšfo_simuÏ‹_v”siÚ
+[] = {
+
+772 
+SIMULATE_VERSION_MAJOR
+,
+
+773 #ifdeà
+SIMULATE_VERSION_MINOR
+
+
+774 '.', 
+SIMULATE_VERSION_MINOR
+,
+
+775 #ifdeà
+SIMULATE_VERSION_PATCH
+
+
+776 '.', 
+SIMULATE_VERSION_PATCH
+,
+
+777 #ifdeà
+SIMULATE_VERSION_TWEAK
+
+
+778 '.', 
+SIMULATE_VERSION_TWEAK
+,
+
+789 cÚ¡* 
+	gšfo_¶©fÜm
+ = "INFO" ":" "¶©fÜm[" 
+PLATFORM_ID
+ "]";
+
+790 cÚ¡* 
+	gšfo_¬ch
+ = "INFO" ":" "¬ch[" 
+ARCHITECTURE_ID
+ "]";
+
+794 #ià
+defšed
+(
+__INTEL_COMPILER
+è&& defšed(
+_MSVC_LANG
+) && _MSVC_LANG < 201403L
+
+795 #ià
+defšed
+(
+__INTEL_CXX11_MODE__
+)
+
+796 #ià
+defšed
+(
+__ýp_agg»g©e_nsdmi
+)
+
+797 
+	#CXX_STD
+ 201402L
+
+	)
+
+799 
+	#CXX_STD
+ 201103L
+
+	)
+
+802 
+	#CXX_STD
+ 199711L
+
+	)
+
+804 #–ià
+defšed
+(
+_MSC_VER
+è&& defšed(
+_MSVC_LANG
+)
+
+805 
+	#CXX_STD
+ 
+_MSVC_LANG
+
+
+	)
+
+807 
+	#CXX_STD
+ 
+__ýlu¥lus
+
+
+	)
+
+810 cÚ¡ * 
+	gšfo_Ïnguage_¡ªd¬d_deçuÉ
+ = "INFO" ":" "standard_default["
+
+811 #ià
+CXX_STD
+ > 202002L
+
+813 #–ià
+CXX_STD
+ > 201703L
+
+815 #–ià
+CXX_STD
+ >= 201703L
+
+817 #–ià
+CXX_STD
+ >= 201402L
+
+819 #–ià
+CXX_STD
+ >= 201103L
+
+826 cÚ¡ * 
+	gšfo_Ïnguage_ex‹nsiÚs_deçuÉ
+ = "INFO" ":" "extensions_default["
+
+827 #ià(
+defšed
+(
+__þªg__
+è|| defšed(
+__GNUC__
+è|| defšed(
+__xlC__
+) || \
+
+828 
+defšed
+(
+__TI_COMPILER_VERSION__
+)) && \
+
+829 !
+defšed
+(
+__STRICT_ANSI__
+)
+
+838 
+	$maš
+(
+¬gc
+, * 
+¬gv
+[])
+
+840 
+»quœe
+ = 0;
+
+841 
+»quœe
+ +ð
+šfo_compž”
+[
+¬gc
+];
+
+842 
+»quœe
+ +ð
+šfo_¶©fÜm
+[
+¬gc
+];
+
+843 
+»quœe
+ +ð
+šfo_¬ch
+[
+¬gc
+];
+
+844 #ifdeà
+COMPILER_VERSION_MAJOR
+
+
+845 
+»quœe
+ +ð
+šfo_v”siÚ
+[
+¬gc
+];
+
+847 #ifdeà
+COMPILER_VERSION_INTERNAL
+
+
+848 
+»quœe
+ +ð
+šfo_v”siÚ_š‹º®
+[
+¬gc
+];
+
+850 #ifdeà
+SIMULATE_ID
+
+
+851 
+»quœe
+ +ð
+šfo_simuÏ‹
+[
+¬gc
+];
+
+853 #ifdeà
+SIMULATE_VERSION_MAJOR
+
+
+854 
+»quœe
+ +ð
+šfo_simuÏ‹_v”siÚ
+[
+¬gc
+];
+
+856 #ià
+	`defšed
+(
+__CRAYXT_COMPUTE_LINUX_TARGET
+)
+
+857 
+»quœe
+ +ð
+šfo_üay
+[
+¬gc
+];
+
+859 
+»quœe
+ +ð
+šfo_Ïnguage_¡ªd¬d_deçuÉ
+[
+¬gc
+];
+
+860 
+»quœe
+ +ð
+šfo_Ïnguage_ex‹nsiÚs_deçuÉ
+[
+¬gc
+];
+
+861 ()
+¬gv
+;
+
+862  
+»quœe
+;
+
+863 
+	}
+}
+
 	@src/intern/bsApplication.cpp
 
 2 
@@ -385,16 +4225,6 @@ m_backšgStÜe
 
 	@src/intern/bsVM/bsVM.h
 
-2 #iâdeà
-BSVM_HEADER
-
-
-3 
-	#BSVM_HEADER
-
-
-	)
-
 	@src/intern/bsVM/tests/build_test.cpp
 
 	@src/intern/main.cpp
@@ -452,8 +4282,9 @@ wšdow
 .
 1
 /usr/include
-6
-161
+7
+238
+build/CMakeFiles/3.28.20231111-g33d372c/CompilerIdCXX/CMakeCXXCompilerId.cpp
 src/intern/bsApplication.cpp
 src/intern/bsApplication.h
 src/intern/bsVM/bsVM.cpp

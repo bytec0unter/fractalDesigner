@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5.1)
+cmake_minimum_required(VERSION 3.28)
 project(bsApplication VERSION 0.0.1 LANGUAGES CXX)
 
 
@@ -7,13 +7,10 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/")
 ## SETUP VARIABLES so that cmake can find the packages
 #
 set(Qt6_DIR "/home/stuv/Qt/6.6.0/gcc_64/lib/cmake/Qt6")
-set(Python3_DIR "/home/stuv/build/python3.13/lib")
-set(Python_PATH "/home/stuv/build/python3.13/bin")
-
 set(QT6_RPATH "/home/stuv/Qt/6.6.0/gcc_64/lib") 
 
-set(EXTERNAL_BUILD_PATH "/home/stuv/build/cpython3.13/CMakeFiles/Export/lib/cmake/cpython3.13")
-#list(APPEND CMAKE_PREFIX_PATH ${EXTERNAL_BUILD_PATH})
+set(EXTERNAL_BUILD_PATH "/home/stuv/build/python3.13")
+list(APPEND CMAKE_PREFIX_PATH ${EXTERNAL_BUILD_PATH})
 
 
 ## SETUP CMAKE COMPILER OPTIONS
@@ -41,14 +38,6 @@ SET(CMAKE_CXX_STANDARD_REQUIRED ON)
 SET(CMAKE_BUILD_TYPE Debug)
 SET(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
-
-
-
-
-
-
-
-
 ## SETUP PACKAGES
 #
 #
@@ -60,7 +49,6 @@ find_package(
   Python3 3.13.0
   REQUIRED
   COMPONENTS Interpreter Development
-  PATH ${EXTERNAL_BUILD_PATH}
 )
 
 
