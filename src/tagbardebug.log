@@ -1,0 +1,80 @@
+
+
+VIM - Vi IMproved 9.0 (2022 Jun 28, compiled May 04 2023 10:24:44)
+Included patches: 1-1378, 1499
+Modified by team+vim@tracker.debian.org
+Compiled by team+vim@tracker.debian.org
+Huge version with GTK3 GUI.  Features included (+) or not (-):
++acl               +cindent           +cursorshape       +file_in_path      +job               +menu              +mouse_urxvt       +popupwin          +signs             -tag_any_white     +user_commands     +windows
++arabic            +clientserver      +dialog_con_gui    +find_in_path      +jumplist          +mksession         +mouse_xterm       +postscript        +smartindent       +tcl               +vartabs           +writebackup
++autocmd           +clipboard         +diff              +float             +keymap            +modify_fname      +multi_byte        +printer           +sodium            +termguicolors     +vertsplit         +X11
++autochdir         +cmdline_compl     +digraphs          +folding           +lambda            +mouse             +multi_lang        +profile           +sound             +terminal          +vim9script        -xfontset
+-autoservername    +cmdline_hist      +dnd               -footer            +langmap           +mouseshape        -mzscheme          -python            +spell             +terminfo          +viminfo           +xim
++balloon_eval      +cmdline_info      -ebcdic            +fork()            +libcall           +mouse_dec         +netbeans_intg     +python3           +startuptime       +termresponse      +virtualedit       -xpm
++balloon_eval_term +comments          +emacs_tags        +gettext           +linebreak         +mouse_gpm         +num64             +quickfix          +statusline        +textobjects       +visual            +xsmp_interact
++browse            +conceal           +eval              -hangul_input      +lispindent        -mouse_jsbterm     +packages          +reltime           -sun_workshop      +textprop          +visualextra       +xterm_clipboard
+++builtin_terms    +cryptv            +ex_extra          +iconv             +listcmds          +mouse_netterm     +path_extra        +rightleft         +syntax            +timers            +vreplace          -xterm_save
++byte_offset       +cscope            +extra_search      +insert_expand     +localmap          +mouse_sgr         +perl              +ruby              +tag_binary        +title             +wildignore        
++channel           +cursorbind        -farsi             +ipv6              +lua               -mouse_sysmouse    +persistent_undo   +scrollbind        -tag_old_static    +toolbar           +wildmenu          
+   system vimrc file: "/etc/vim/vimrc"
+     user vimrc file: "$HOME/.vimrc"
+ 2nd user vimrc file: "~/.vim/vimrc"
+      user exrc file: "$HOME/.exrc"
+  system gvimrc file: "/etc/vim/gvimrc"
+    user gvimrc file: "$HOME/.gvimrc"
+2nd user gvimrc file: "~/.vim/gvimrc"
+       defaults file: "$VIMRUNTIME/defaults.vim"
+    system menu file: "$VIMRUNTIME/menu.vim"
+  fall-back for $VIM: "/usr/share/vim"
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H -DFEAT_GUI_GTK -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -pthread -Wdate-time -g -O2 -ffile-prefix-map=/build/vim-JA6Vy9/vim-9.0.1378=. -fstack-protector-strong -Wformat -Werror=format-security -DSYS_VIMRC_FILE=\"/etc/vim/vimrc\" -DSYS_GVIMRC_FILE=\"/etc/vim/gvimrc\" -D_REENTRANT -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 
+Linking: gcc -Wl,-E -Wl,-z,relro -Wl,-z,now -Wl,--as-needed -o vim -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lSM -lICE -lXt -lX11 -lXdmcp -lSM -lICE -lm -ltinfo -lselinux -lcanberra -lsodium -lacl -lattr -lgpm -L/usr/lib -llua5.2 -Wl,-E -fstack-protector-strong -L/usr/local/lib -L/usr/lib/x86_64-linux-gnu/perl/5.36/CORE -lperl -ldl -lm -lpthread -lcrypt -L/usr/lib/python3.11/config-3.11-x86_64-linux-gnu -lpython3.11 -ldl -lm -L/usr/lib/x86_64-linux-gnu -ltcl8.6 -ldl -lz -lpthread -lm -lruby-3.1 -lm -L/usr/lib 2023-11-27 14:54:23.693390: ToggleWindow called
+2023-11-27 14:54:23.693677: OpenWindow called with flags: ''
+2023-11-27 14:54:23.694053: Creating autocommands
+2023-11-27 14:54:23.695248: AutoUpdate called [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.695462: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2023-11-27 14:54:23.695552: Checking if file is valid [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.695904: File data seems up to date [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.696127: Setting current file [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.696939: AutoUpdate finished successfully
+2023-11-27 14:54:23.698068: AutoUpdate called [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/__Tagbar__.1]
+2023-11-27 14:54:23.698212: Still opening window, stopping processing
+2023-11-27 14:54:23.698533: InitWindow called with autoclose: 0
+2023-11-27 14:54:23.707601: AutoUpdate called [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/__Tagbar__.1]
+2023-11-27 14:54:23.707745: In Tagbar window, stopping processing
+2023-11-27 14:54:23.708234: InitWindow finished
+2023-11-27 14:54:23.708319: AutoUpdate called [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.708425: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2023-11-27 14:54:23.708475: Checking if file is valid [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.708670: File data seems up to date [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.708791: RenderContent called
+2023-11-27 14:54:23.708942: Redisplaying file [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.709205: PrintKinds called
+2023-11-27 14:54:23.709276: Printing kind: d, number of (top-level) tags: 0
+2023-11-27 14:54:23.709332: Printing kind: p, number of (top-level) tags: 0
+2023-11-27 14:54:23.709383: Printing kind: g, number of (top-level) tags: 0
+2023-11-27 14:54:23.709433: Printing kind: e, number of (top-level) tags: 0
+2023-11-27 14:54:23.709482: Printing kind: t, number of (top-level) tags: 0
+2023-11-27 14:54:23.709530: Printing kind: n, number of (top-level) tags: 0
+2023-11-27 14:54:23.709577: Printing kind: c, number of (top-level) tags: 0
+2023-11-27 14:54:23.709624: Printing kind: s, number of (top-level) tags: 0
+2023-11-27 14:54:23.709672: Printing kind: u, number of (top-level) tags: 0
+2023-11-27 14:54:23.709718: Printing kind: f, number of (top-level) tags: 1
+2023-11-27 14:54:23.709974: Printing kind: m, number of (top-level) tags: 0
+2023-11-27 14:54:23.710022: Printing kind: v, number of (top-level) tags: 0
+2023-11-27 14:54:23.710067: Printing kind: ?, number of (top-level) tags: 0
+2023-11-27 14:54:23.710367: Setting current file [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:23.710710: AutoUpdate finished successfully
+2023-11-27 14:54:23.713284: OpenWindow finished
+2023-11-27 14:54:23.713319: ToggleWindow finished
+2023-11-27 14:54:24.014786: AutoUpdate called [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/__Tagbar__.1]
+2023-11-27 14:54:24.015136: In Tagbar window, stopping processing
+2023-11-27 14:54:25.937364: ToggleWindow called
+2023-11-27 14:54:25.937614: CloseWindow called
+2023-11-27 14:54:25.939333: AutoUpdate called [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:25.939580: Vim filetype: 'cpp', sanitized filetype: 'cpp'
+2023-11-27 14:54:25.939672: Checking if file is valid [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:25.940029: File data seems up to date [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:25.940250: Setting current file [/media/stuv/PROJECTS/programming/private/fractalDesigner/src/intern/main.cpp]
+2023-11-27 14:54:25.941050: AutoUpdate finished successfully
+2023-11-27 14:54:25.941198: goto_win(): wincmd p, 0
+2023-11-27 14:54:25.942883: CloseWindow finished
