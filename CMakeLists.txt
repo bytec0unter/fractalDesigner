@@ -49,7 +49,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE "-O3")
 #
 find_package(
     Qt6 6.6.1
-    REQUIRED COMPONENTS Core Gui Widgets OpenGL
+    REQUIRED COMPONENTS Core Gui Widgets OpenGL OpenGLWidgets Svg
 )
 
 # find python library located at /home/stuv/build/python3.13/lib/libpython3.13.so
@@ -62,13 +62,11 @@ qt6_standard_project_setup()
 
 
 
-
-set(SOURCES
-  src/intern/main.cpp
-  src/intern/bsApplication.cpp
-  src/intern/bsApplication.h
-  src/
+file(GLOB_RECURSE SOURCES
+  src/*.cpp
+  src/*.h
 )
+
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
@@ -81,18 +79,23 @@ set(QT_DEBUG_PLUGINS ON)
 #set(SKIP_BUILD_RPATH true)
 set_target_properties(${PROJECT_NAME} PROPERTIES INSTALL_RPATH "${QT6_RPATH}")
 
-set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME bsApplication)
-set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_OUTPUT_NAME bsApplication)
+set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME bsFractalDesigner_release)
+set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_OUTPUT_NAME bsFractalDesigner_debug)
+
+set(MOD_QT6 Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL Qt6::OpenGLWidgets Qt6::Svg)
+set(PYTHON_LIBRARIES Python3::Python3 Python3_LIBARY_DIRS)
 
 
 # qt6 set include directories and link libraries
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
-target_include_directories(${PROJECT_NAME} PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL)
+target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 Python3_LIBARY_DIRS)
+
+target_include_directories(${PROJECT_NAME} PRIVATE MOD_QT6 Python3_INCLUDE_DIRS
+)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 Python3::Python ${CMAKE_DL_LIBS})
 
 # python set include directories and link libraries
 target_include_directories(${PROJECT_NAME} PRIVATE Python3_INCLUDE_DIRS)
-target_link_libraries(${PROJECT_NAME} PRIVATE Python3::Python)
 target_link_directories(${PROJECT_NAME} PRIVATE Python3_LIBARY_DIRS)
 
 
