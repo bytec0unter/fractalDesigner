@@ -12,39 +12,61 @@
 #include <sstream>
 
 
+enum bVariableType {
+    bVariableString,
+    bVariableDouble,
+    bVariableUnknown
+};
+
+/*!
+\title bVariable
+\brief Variable class
+\detailed This class is used to store variables, variables can be of 
+*/
+class bVariable {
+public:
+    bVariable(std::string name, std::string value);
+    ~bVariable();
+
+public:
+    bVariableType getType() const;
+    std::string getName() const;
+    std::string getValue() const;k
+
+private:
+    bVariableType type;
+    std::string name;
+    std::string value;
+};
+
+enum bTokenType {
+    bTokenNumber,
+    bTokenOperator,
+    bTokenFunction,
+    bTokenBracket,
+    bTokenVariable,
+    bTokenUnknown
+};
 
 
-#include <string>
-#include <vector>
-#include <map>
-#include <iostream>
-#include <fstream>
-#include <sstream>
-
-
-#define TOKEN_BRACKETS_OPEN 0x01
-#define TOKEN_BEACKETS_CLOSE 0x02
-#define TOKEN_STRINGq 0x03
-#define TOKEN_NUMBER 0x04
-
+List<std::string> functions = {"cos", "sin", "log", "mod"}
+List<std::string> brackets = {"(",")"};
+List<std::string> operators = {"+","-","*","/","%","^","&","|","~","!","=","<",">","?"};
 
 
 struct Token {
-    unsigned int token_type;
-    unsigned chat value token_value;
+    unsigned int type;
+    unsigned char value;
     unsigned int level;
 };
 
 
 class bTokenizer {
-
-
-
 public:
     bTokenizer(std::string filename);
     ~bTokenizer();
 
-    void tokenize(std::string string);
+    void parseToken(std::string string);
     void printTokens();
 
     /** List with a all supported functions */
@@ -59,17 +81,6 @@ private:
 public:
     
         static pParser* instance();
-        void generateToken(std::string string);
-    
-
-
-    /** List with a all supported functions */
-    List<Token> tokens;
-
-};
-
-
-
 
 
 

@@ -1,4 +1,4 @@
-cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000031464
+cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000031873
 	@build/CMakeFiles/3.28.20231024-git/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 4 #iâdeà
@@ -4335,83 +4335,185 @@ BPARSER_H
 	~<s¡»am
 >
 
-17 
-	~<¡ršg
->
-
-18 
-	~<veùÜ
->
-
-19 
-	~<m­
->
-
-20 
-	~<io¡»am
->
-
-21 
-	~<f¡»am
->
-
-22 
-	~<s¡»am
->
-
-25 
-	#TOKEN_BRACKETS_OPEN
- 0x01
-
-	)
-
-26 
-	#TOKEN_BEACKETS_CLOSE
- 0x02
-
-	)
-
-27 
-	#TOKEN_STRINGq
- 0x03
-
-	)
-
-28 
-	#TOKEN_NUMBER
- 0x04
-
-	)
-
-32 
-	sTok’
+15 
+	ebV¬ŸbËTy³
  {
 
-33 
-	mtok’_ty³
-;
+16 
+	mbV¬ŸbËSŒšg
+,
 
-34 
-ch©
- 
-v®ue
- 
-	mtok’_v®ue
-;
+17 
+	mbV¬ŸbËDoubË
+,
 
-35 
-	mËv–
-;
+18 
+	mbV¬ŸbËUnknown
 
-39 þas 
-	cbTok’iz”
+
+26 þas 
+	cbV¬ŸbË
  {
 
-43 
+27 
 	mpublic
 :
 
+28 
+bV¬ŸbË
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, std::¡ršg 
+v®ue
+);
+
+29 ~
+bV¬ŸbË
+();
+
+31 
+	mpublic
+:
+
+32 
+bV¬ŸbËTy³
+ 
+	$g‘Ty³
+() const;
+
+33 
+¡d
+::
+¡ršg
+ 
+	$g‘Name
+() const;
+
+34 
+¡d
+::
+¡ršg
+ 
+	$g‘V®ue
+(ècÚ¡;
+k
+
+
+36 
+´iv©e
+:
+
+37 
+bV¬ŸbËTy³
+ 
+ty³
+;
+
+38 
+¡d
+::
+¡ršg
+ 
+Çme
+;
+
+39 
+¡d
+::
+¡ršg
+ 
+v®ue
+;
+
+42 
+	ebTok’Ty³
+ {
+
+43 
+bTok’Numb”
+,
+
 44 
+bTok’O³¿tÜ
+,
+
+45 
+bTok’FunùiÚ
+,
+
+46 
+bTok’B¿ck‘
+,
+
+47 
+bTok’V¬ŸbË
+,
+
+48 
+bTok’Unknown
+
+
+52 
+Li¡
+<
+¡d
+::
+¡ršg
+> 
+funùiÚs
+ = {"cos", "sš", "log", "mod"
+	}
+}
+
+53 
+Li¡
+<
+¡d
+::
+¡ršg
+> 
+b¿ck‘s
+ = {"(",")"};
+
+54 
+	gLi¡
+<
+	g¡d
+::
+¡ršg
+> 
+Ý”©Üs
+ = {"+","-","*","/","%","^","&","|","~","!","=","<",">","?"};
+
+57 
+	sTok’
+ {
+
+58 
+	mty³
+;
+
+59 
+	mv®ue
+;
+
+60 
+	mËv–
+;
+
+64 þas 
+	cbTok’iz”
+ {
+
+65 
+	mpublic
+:
+
+66 
 bTok’iz”
 (
 ¡d
@@ -4421,23 +4523,23 @@ bTok’iz”
 fž’ame
 );
 
-45 ~
+67 ~
 bTok’iz”
 ();
 
-47 
-tok’ize
+69 
+·r£Tok’
 (
 ¡d
 ::
 ¡ršg
  string);
 
-48 
+70 
 ´štTok’s
 ();
 
-51 
+73 
 	m¡d
 ::
 veùÜ
@@ -4447,15 +4549,15 @@ Tok’
 tok’s
 ;
 
-54 þas 
+76 þas 
 	cpP¬£r
  {
 
-55 
+77 
 	m´iv©e
 :
 
-56 
+78 
 pP¬¤
 (
 ¡d
@@ -4465,35 +4567,19 @@ pP¬¤
 fž’ame
 );
 
-57 ~
+79 ~
 pP¬£r
 ();
 
-59 
+81 
 	mpublic
 :
 
-61 
+83 
 pP¬£r
 * 
 š¡ªû
 ();
-
-62 
-g’”©eTok’
-(
-¡d
-::
-¡ršg
- string);
-
-67 
-	mLi¡
-<
-	mTok’
-> 
-	mtok’s
-;
 
 	@src/intern/bParser/tests/build_test.cpp
 
