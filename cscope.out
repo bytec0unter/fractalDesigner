@@ -1,4 +1,4 @@
-cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000030488
+cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000031464
 	@build/CMakeFiles/3.28.20231024-git/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 4 #iâdeà
@@ -4145,6 +4145,128 @@ mašW
 
 	@src/intern/bNodes/bINode.h
 
+	@src/intern/bParser/bBuffer.cpp
+
+2 
+	~"bBufãr.h
+"
+
+6 
+	gbBufãr
+::
+	$bBufãr
+(
+¡d
+::
+¡ršg
+ 
+bufãr
+)
+
+8 
+	`addBufãr
+(
+bufãr
+);
+
+9 
+	}
+}
+
+11 ~
+	gbBufãr
+::
+	$bBufãr
+()
+
+13 
+	`þ—rBufãrs
+();
+
+14 
+	}
+}
+
+	@src/intern/bParser/bBuffer.h
+
+7 #iâdeà
+BBUFFER_H
+
+
+8 
+	#BBUFFER_H
+
+
+	)
+
+11 þas 
+	cbBufãr
+ {
+
+13 
+	mpublic
+:
+
+14 
+bBufãr
+(
+¡d
+::
+¡ršg
+ 
+bufãr
+);
+
+15 ~
+bBufãr
+();
+
+17 
+addBufãr
+(
+¡d
+::
+¡ršg
+ 
+bufãr
+);
+
+18 
+»moveBufãr
+(
+id
+);
+
+19 
+þ—rBufãrs
+();
+
+21 
+	m¡d
+::
+¡ršg
+ 
+g‘Bufãr
+(
+id
+);
+
+27 
+	m´iv©e
+:
+
+29 
+¡d
+::
+m­
+<, 
+	m¡d
+::
+¡ršg
+> 
+bufãrs
+;
+
 	@src/intern/bParser/bParser.cpp
 
 3 
@@ -4185,67 +4307,155 @@ BPARSER_H
 
 	)
 
-6 
+5 
+	~"bBufãr.h
+"
+
+7 
 	~<¡ršg
 >
 
-7 
+8 
 	~<veùÜ
 >
 
-8 
+9 
 	~<m­
 >
 
-9 
+10 
 	~<io¡»am
 >
 
-10 
+11 
 	~<f¡»am
 >
 
-11 
+12 
 	~<s¡»am
 >
 
-13 
+17 
+	~<¡ršg
+>
+
+18 
+	~<veùÜ
+>
+
+19 
+	~<m­
+>
+
+20 
+	~<io¡»am
+>
+
+21 
+	~<f¡»am
+>
+
+22 
+	~<s¡»am
+>
+
+25 
+	#TOKEN_BRACKETS_OPEN
+ 0x01
+
+	)
+
+26 
+	#TOKEN_BEACKETS_CLOSE
+ 0x02
+
+	)
+
+27 
+	#TOKEN_STRINGq
+ 0x03
+
+	)
+
+28 
+	#TOKEN_NUMBER
+ 0x04
+
+	)
+
+32 
 	sTok’
  {
 
-14 
-	m¡d
-::
-¡ršg
- 
-ty³
+33 
+	mtok’_ty³
 ;
 
-15 
-	m¡d
-::
-¡ršg
+34 
+ch©
  
 v®ue
+ 
+	mtok’_v®ue
 ;
 
-16 
-	mlše
+35 
+	mËv–
 ;
 
-17 
-	mcÞumn
+39 þas 
+	cbTok’iz”
+ {
+
+43 
+	mpublic
+:
+
+44 
+bTok’iz”
+(
+¡d
+::
+¡ršg
+ 
+fž’ame
+);
+
+45 ~
+bTok’iz”
+();
+
+47 
+tok’ize
+(
+¡d
+::
+¡ršg
+ string);
+
+48 
+´štTok’s
+();
+
+51 
+	m¡d
+::
+veùÜ
+<
+Tok’
+> 
+tok’s
 ;
 
-21 þas 
+54 þas 
 	cpP¬£r
-{
+ {
 
-23 
+55 
 	m´iv©e
 :
 
-24 
+56 
 pP¬¤
 (
 ¡d
@@ -4255,21 +4465,21 @@ pP¬¤
 fž’ame
 );
 
-25 ~
+57 ~
 pP¬£r
 ();
 
-27 
+59 
 	mpublic
 :
 
-29 
+61 
 pP¬£r
 * 
 š¡ªû
 ();
 
-30 
+62 
 g’”©eTok’
 (
 ¡d
@@ -4277,7 +4487,7 @@ g’”©eTok’
 ¡ršg
  string);
 
-35 
+67 
 	mLi¡
 <
 	mTok’
@@ -4838,13 +5048,15 @@ a
 .
 1
 /usr/include
-9
-301
+11
+361
 build/CMakeFiles/3.28.20231024-git/CompilerIdCXX/CMakeCXXCompilerId.cpp
 src/intern/bApplication.cpp
 src/intern/bApplication.h
 src/intern/bIApplication.h
 src/intern/bNodes/bINode.h
+src/intern/bParser/bBuffer.cpp
+src/intern/bParser/bBuffer.h
 src/intern/bParser/bParser.cpp
 src/intern/bParser/bsParser.h
 src/intern/bParser/tests/build_test.cpp

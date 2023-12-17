@@ -69,14 +69,7 @@ set(PYTHON_LIBRARIES Python3::Python3 Python3_LIBARY_DIRS)
 
 
 # qt6 set include directories and link libraries
-target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 Python3_LIBARY_DIRS)
-
-target_include_directories(${PROJECT_NAME} PRIVATE MOD_QT6 Python3_INCLUDE_DIRS
-)
-
-target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 Python3::Python ${CMAKE_DL_LIBS})
-
-# python set include directories and link libraries
+target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 Python3_LIBARY_DIRS ${CMAKE_DL_LIBS})
 target_include_directories(${PROJECT_NAME} PRIVATE Python3_INCLUDE_DIRS)
 target_link_directories(${PROJECT_NAME} PRIVATE Python3_LIBARY_DIRS)
 
