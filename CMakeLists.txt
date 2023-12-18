@@ -2,19 +2,23 @@ cmake_minimum_required(VERSION 3.28)
 project(bsApplication VERSION 0.0.1 LANGUAGES CXX)
 
 message(STATUS "CMAKE_SOURCE_DIR: ${CMAKE_SOURCE_DIR}")
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/buildsytem/cmake)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/buildsystem/cmake)
 include("basictools")
 
 ## SETUP VARIABLES so that cmake can find the packages
 #
-bs_set_cmake_prefix_path()
+#bs_set_cmake_prefix_path()
+
+set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6")
+set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13")
+set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib")
+list(APPEND CMAKE_PREFIX_PATH ${CMAKE_PREFIX_QT6} ${CMAKE_PREFIX_PYTHON3})
+
+
 
 bs_set_build_type()
 
-if(NOT CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/out)
-endif()
-
+bs_set_output_path()
 
 set(CMAKE_COMPILE_WARNING_AS_ERROR ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

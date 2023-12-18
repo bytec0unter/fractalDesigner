@@ -1,4 +1,4 @@
-cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000031873
+cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000032423
 	@build/CMakeFiles/3.28.20231024-git/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 4 #i‚de‡
@@ -4269,29 +4269,45 @@ buf„rs
 
 	@src/intern/bParser/bParser.cpp
 
-3 
-	gbP¨£r
+2 
+	~"bP¨£r.h
+"
+
+9 
+	gbsV¨übÀ
 ::
-	$bP¨£r
+	$bsV¨übÀ
 (
 °d
 ::
 °rög
  
-fûíame
+«me
+, std::°rög 
+vÆue
 )
 
-5 
-	}
-}
+11 
+this
+->
+«me
+ =Çame;
 
-7 ~
-bP¨£r
-::
-	$bP¨£r
-()
+12 
+this
+->
+vÆue
+ = value;
 
-9 
+13 
+this
+->
+ty≥
+ = 
+bV¨übÀUnknown
+;
+
+14 
 	}
 }
 
@@ -4335,31 +4351,31 @@ BPARSER_H
 	~<s°ªam
 >
 
-15 
+21 
 	ebV¨übÀTy≥
  {
 
-16 
+22 
 	mbV¨übÀSåög
 ,
 
-17 
+23 
 	mbV¨übÀDoubÀ
 ,
 
-18 
+24 
 	mbV¨übÀUnknown
 
 
-26 ˛as†
+32 ˛as†
 	cbV¨übÀ
  {
 
-27 
+33 
 	mpublic
 :
 
-28 
+34 
 bV¨übÀ
 (
 °d
@@ -4371,21 +4387,21 @@ bV¨übÀ
 vÆue
 );
 
-29 ~
+35 ~
 bV¨übÀ
 ();
 
-31 
+37 
 	mpublic
 :
 
-32 
+38 
 bV¨übÀTy≥
  
 	$gëTy≥
 () const;
 
-33 
+39 
 °d
 ::
 °rög
@@ -4393,7 +4409,7 @@ bV¨übÀTy≥
 	$gëName
 () const;
 
-34 
+40 
 °d
 ::
 °rög
@@ -4403,17 +4419,17 @@ bV¨übÀTy≥
 k
 
 
-36 
+42 
 ¥iv©e
 :
 
-37 
+43 
 bV¨übÀTy≥
  
 ty≥
 ;
 
-38 
+44 
 °d
 ::
 °rög
@@ -4421,7 +4437,7 @@ ty≥
 «me
 ;
 
-39 
+45 
 °d
 ::
 °rög
@@ -4429,92 +4445,124 @@ ty≥
 vÆue
 ;
 
-42 
+54 
 	ebTokíTy≥
  {
 
-43 
+55 
 bTokíNumbî
 ,
 
-44 
+56 
 bTokíO≥øt‹
 ,
 
-45 
+57 
 bTokíFun˘i⁄
 ,
 
-46 
+58 
 bTokíBøckë
 ,
 
-47 
+59 
 bTokíV¨übÀ
 ,
 
-48 
+60 
 bTokíUnknown
 
 
-52 
-Li°
-<
-°d
-::
-°rög
-> 
-fun˘i⁄s
- = {"cos", "sö", "log", "mod"
-	}
-}
+63 
+bsTokíO≥nBøckë
+ = "(";
 
-53 
-Li°
-<
-°d
-::
-°rög
-> 
-bøckës
- = {"(",")"};
+64 
+bsTokíClo£Bøckë
+ = ")";
 
-54 
-	gLi°
-<
-	g°d
-::
-°rög
-> 
-›î©‹s
- = {"+","-","*","/","%","^","&","|","~","!","=","<",">","?"};
+65 
+bsTokíPlus
+ = "+";
 
-57 
+66 
+bsTokíMöus
+ = "-";
+
+67 
+bsTokíMu…ùly
+ = "*";
+
+68 
+bsTokíDivide
+ = "/";
+
+69 
+bsTokíModulo
+ = "%";
+
+70 
+bsTokíPowî
+ = "^";
+
+71 
+bsTokíAnd
+ = "&";
+
+72 
+bsTokíOr
+ = "|";
+
+73 
+bsTokíNŸ
+ = "~";
+
+74 
+bsTokíNŸ
+ = "!";
+
+75 
+bsTokíEquÆ
+ = "=";
+
+76 
+bsTokíLess
+ = "<";
+
+77 
+bsTokíGª©î
+ = ">";
+
+78 
+bsTokíQue°i⁄
+ = "?";
+
+80 
 	sTokí
  {
 
-58 
-	mty≥
+81 
+ty≥
 ;
 
-59 
-	mvÆue
+82 
+vÆue
 ;
 
-60 
-	mÀvñ
+83 
+Àvñ
 ;
 
-64 ˛as†
+87 ˛as†
 	cbTokíizî
  {
 
-65 
-	mpublic
+88 
+public
 :
 
-66 
-bTokíizî
+89 
+	`bTokíizî
 (
 °d
 ::
@@ -4523,24 +4571,24 @@ bTokíizî
 fûíame
 );
 
-67 ~
-bTokíizî
+90 ~
+	`bTokíizî
 ();
 
-69 
-∑r£Tokí
+92 
+	`∑r£Tokí
 (
 °d
 ::
 °rög
  string);
 
-70 
-¥ötTokís
+93 
+	`¥ötTokís
 ();
 
-73 
-	m°d
+96 
+°d
 ::
 ve˘‹
 <
@@ -4549,16 +4597,16 @@ Tokí
 tokís
 ;
 
-76 ˛as†
+99 ˛as†
 	cpP¨£r
  {
 
-77 
-	m¥iv©e
+100 
+public
 :
 
-78 
-pP¨§
+101 
+	`pP¨£r
 (
 °d
 ::
@@ -4567,19 +4615,79 @@ pP¨§
 fûíame
 );
 
-79 ~
-pP¨£r
+102 ~
+	`pP¨£r
 ();
 
-81 
-	mpublic
+104 
+¥iv©e
 :
 
-83 
-pP¨£r
-* 
-ö°™˚
+109 ˛as†
+	cbCÆcuœt‹
+ {
+
+110 
+public
+:
+
+112 
+	`bCÆcuœt‹
+(
+°d
+::
+°rög
+ 
+fûíame
+);
+
+113 ~
+	`bCÆcuœt‹
 ();
+
+115 
+	`ˇlcuœã
+(
+°d
+::
+°rög
+ 
+fûíame
+);
+
+118 
+¥iv©e
+:
+
+119 
+bTokíizî
+ *
+tokíizî
+;
+
+120 
+bP¨£r
+ *
+∑r£r
+;
+
+122 
+bV¨übÀ
+ *
+v¨übÀs
+;
+
+123 
+bBuf„r
+ *
+buf„r
+;
+
+124 
+bFun˘i⁄
+ *
+fu
+
 
 	@src/intern/bParser/tests/build_test.cpp
 

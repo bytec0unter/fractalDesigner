@@ -12,6 +12,12 @@
 #include <sstream>
 
 
+
+/*!
+\title bVariableType
+\brief Variable type
+\detailed This enum is used to store the type of a variable
+*/
 enum bVariableType {
     bVariableString,
     bVariableDouble,
@@ -39,6 +45,12 @@ private:
     std::string value;
 };
 
+
+/*!
+\title bTokenizer
+\brief Tokenizer class
+\detailed This class is used to tokenize a string, it is used by the parser
+*/
 enum bTokenType {
     bTokenNumber,
     bTokenOperator,
@@ -48,11 +60,22 @@ enum bTokenType {
     bTokenUnknown
 };
 
-
-List<std::string> functions = {"cos", "sin", "log", "mod"}
-List<std::string> brackets = {"(",")"};
-List<std::string> operators = {"+","-","*","/","%","^","&","|","~","!","=","<",">","?"};
-
+typedef bsTokenOpenBracket = "(";
+typedef bsTokenCloseBracket = ")";
+typedef bsTokenPlus = "+";
+typedef bsTokenMinus = "-";
+typedef bsTokenMultiply = "*";
+typedef bsTokenDivide = "/";
+typedef bsTokenModulo = "%";
+typedef bsTokenPower = "^";
+typedef bsTokenAnd = "&";
+typedef bsTokenOr = "|";
+typedef bsTokenNot = "~";
+typedef bsTokenNot = "!";
+typedef bsTokenEqual = "=";
+typedef bsTokenLess = "<";
+typedef bsTokenGreater = ">";
+typedef bsTokenQuestion = "?";
 
 struct Token {
     unsigned int type;
@@ -74,14 +97,31 @@ public:
 }
 
 class pParser {
-private:
-    pParsr(std::string filename);
+public:
+    pParser(std::string filename);
     ~pParser();
 
+private:
+
+};
+
+
+class bCalculator {
 public:
     
-        static pParser* instance();
+    bCalculator(std::string filename);
+    ~bCalculator();
+
+    void calculate(std::string filename);
 
 
+private:
+    bTokenizer *tokenizer;
+    bParser *parser;
+
+    bVariable *variables;
+    bBuffer *buffer;
+    bFunction *fu      
+};
 
 #endif // BPARSER_H
