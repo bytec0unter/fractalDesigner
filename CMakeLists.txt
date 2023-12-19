@@ -1,18 +1,24 @@
 cmake_minimum_required(VERSION 3.28)
 project(bsApplication VERSION 0.0.1 LANGUAGES CXX)
 
-message(STATUS "CMAKE_SOURCE_DIR: ${CMAKE_SOURCE_DIR}")
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/buildsystem/cmake)
 include("basictools")
 
+
 ## SETUP VARIABLES so that cmake can find the packages
 #
-#bs_set_cmake_prefix_path()
+#TODO Make CMAKE_PREFIX_PATH work in this CMakelists.txt file!
+bs_set_cmake_prefix_path()
 
-set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6")
-set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13")
-set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib")
-list(APPEND CMAKE_PREFIX_PATH ${CMAKE_PREFIX_QT6} ${CMAKE_PREFIX_PYTHON3})
+message(STATUS "CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}"
+        " CMAKE_PREFIX_QT6: ${CMAKE_PREFIX_QT6}"
+        " CMAKE_PREFIX_PYTHON3: ${CMAKE_PREFIX_PYTHON3}"
+        " QT6_RPATH: ${QT6_RPATH}")
+
+#set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6")
+#set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13")
+#set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib")
+#list(APPEND CMAKE_PREFIX_PATH ${CMAKE_PREFIX_QT6} ${CMAKE_PREFIX_PYTHON3})
 
 
 
@@ -68,14 +74,13 @@ set_target_properties(${PROJECT_NAME} PROPERTIES INSTALL_RPATH "${QT6_RPATH}")
 set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME bsFractalDesigner_release)
 set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_OUTPUT_NAME bsFractalDesigner_debug)
 
-set(MOD_QT6 Qt6::Core Qt6::Gui Qt6::Widgets Qt6::OpenGL Qt6::OpenGLWidgets Qt6::Svg)
-set(PYTHON_LIBRARIES Python3::Python3 Python3_LIBARY_DIRS)
+set(MOD_QT6 Qt6::Core Qt6::Gui Qt6::Widgets  Qt6::OpenGLWidgets Qt6::Svg)
+set(PYTHON_LIBRARIES Python3::Python Python3_LIBARY_DIRS)
 
 
 # qt6 set include directories and link libraries
-target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 Python3_LIBARY_DIRS ${CMAKE_DL_LIBS})
-target_include_directories(${PROJECT_NAME} PRIVATE Python3_INCLUDE_DIRS)
-target_link_directories(${PROJECT_NAME} PRIVATE Python3_LIBARY_DIRS)
+target_include_directories(${PROJECT_NAME} PRIVATE Python3::Python Python3_INCLUDE_DIRS ${MOD_QT6})
+target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 ${PYTHON_LIBRARIES} ${CMAKE_DL_LIBS})
 
 
 set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME ${PROJECT_NAME}_release)

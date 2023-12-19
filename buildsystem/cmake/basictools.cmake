@@ -4,13 +4,12 @@
 
 
 function(bs_set_cmake_prefix_path)
-  block(PROPAGATE CMAKE_PREFIX_PYTHON3 CMAKE_PREFIX_QT6 QT6_RPATH CMAKE_PREFIX_PATH)
-    set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13")
-    set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6")
-    set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib")
-    set(CMAKE_REFIX_PATH ${CMAKE_PREFIX_QT6} ${CMAKE_PREFIX_PYTHON3})
-  endblock()
-
+  set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib" CACHE INTERNAL "")
+  
+  set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13" CACHE INTERNAL "")
+  set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6" CACHE INTERNAL "")
+  set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PYTHON3} ${CMAKE_PREFIX_QT6}  CACHE INTERNAL "")
+  message(STATUS "IN FUNCTION: CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}")
 endfunction()
 
 ## SETUP CMAKE DEBUG/REKEASE OPTIONS

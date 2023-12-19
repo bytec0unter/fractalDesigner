@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
                        "print('Today is', ctime(time()))\n");
 
 
+/*
     QApplication a(argc, argv);
     //////////////////////////////////////////////////////////////////////////
     /// Things you can do in Qt Designer
@@ -78,6 +79,9 @@ int main(int argc, char *argv[])
 
 
     return a.exec();
+    */
+
+   return 0;
 }
 
 

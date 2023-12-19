@@ -1,4 +1,4 @@
-cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000032423
+cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000029813
 	@build/CMakeFiles/3.28.20231024-git/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 4 #i‚de‡
@@ -4173,9 +4173,9 @@ buf„r
 	}
 }
 
-11 ~
+11 
 	gbBuf„r
-::
+::~
 	$bBuf„r
 ()
 
@@ -4199,15 +4199,23 @@ BBUFFER_H
 
 	)
 
-11 ˛as†
+10 
+	~<°rög
+>
+
+11 
+	~<m≠
+>
+
+14 ˛as†
 	cbBuf„r
  {
 
-13 
+16 
 	mpublic
 :
 
-14 
+17 
 bBuf„r
 (
 °d
@@ -4217,11 +4225,11 @@ bBuf„r
 buf„r
 );
 
-15 ~
+18 ~
 bBuf„r
 ();
 
-17 
+20 
 addBuf„r
 (
 °d
@@ -4231,17 +4239,17 @@ addBuf„r
 buf„r
 );
 
-18 
+21 
 ªmoveBuf„r
 (
 id
 );
 
-19 
+22 
 ˛órBuf„rs
 ();
 
-21 
+24 
 	m°d
 ::
 °rög
@@ -4251,11 +4259,11 @@ gëBuf„r
 id
 );
 
-27 
+30 
 	m¥iv©e
 :
 
-29 
+32 
 °d
 ::
 m≠
@@ -4769,471 +4777,7 @@ NULL
 	`PyRun_Sim∂eSåög
 ("fromÅime importÅime,ctime\n"
 
-25 
-QAµliˇti⁄
- 
-	`a
-(
-¨gc
-, 
-¨gv
-);
-
-28 
-QWidgë
- 
-maöW
-;
-
-31 
-QO≥nGLWidgë
- *
-gl
- = 
-√w
- 
-	`QO≥nGLWidgë
-(&
-maöW
-, 
-Qt
-::
-Widgë
-);
-
-33 
-QS∂ôãr
- *
-hS∂ôãr
- = 
-√w
- 
-	`QS∂ôãr
-(
-Qt
-::
-H‹iz⁄èl
-,&
-maöW
-);
-
-34 
-QS∂ôãr
- *
-vS∂ôãr1
- = 
-√w
- 
-	`QS∂ôãr
-(
-Qt
-::
-Vîtiˇl
-,&
-maöW
-);
-
-35 
-QS∂ôãr
- *
-vS∂ôãr2
- = 
-√w
- 
-	`QS∂ôãr
-(
-Qt
-::
-Vîtiˇl
-,&
-maöW
-);
-
-36 
-QTabÀWidgë
- *
-èbÀRed
- = 
-√w
- 
-	`QTabÀWidgë
-(6,6,&
-maöW
-);
-
-37 
-èbÀRed
-->
-	`vîtiˇlHódî
-()->
-	`£tSe˘i⁄ResizeMode
-(
-QHódîVõw
-::
-Såëch
-);
-
-38 
-èbÀRed
-->
-	`h‹iz⁄èlHódî
-()->
-	`£tSe˘i⁄ResizeMode
-(
-QHódîVõw
-::
-Såëch
-);
-
-39 
-èbÀRed
-->
-	`vîtiˇlHódî
-()->
-	`hide
-();
-
-40 
-èbÀRed
-->
-	`h‹iz⁄èlHódî
-()->
-	`hide
-();
-
-42 
-QTabÀWidgë
- *
-èbÀGªí
- = 
-√w
- 
-	`QTabÀWidgë
-(1,6,&
-maöW
-);
-
-43 
-èbÀGªí
-->
-	`vîtiˇlHódî
-()->
-	`£tSe˘i⁄ResizeMode
-(
-QHódîVõw
-::
-Såëch
-);
-
-44 
-èbÀGªí
-->
-	`h‹iz⁄èlHódî
-()->
-	`£tSe˘i⁄ResizeMode
-(
-QHódîVõw
-::
-Såëch
-);
-
-45 
-èbÀGªí
-->
-	`vîtiˇlHódî
-()->
-	`hide
-();
-
-46 
-èbÀGªí
-->
-	`h‹iz⁄èlHódî
-()->
-	`hide
-();
-
-48 
-QTabÀWidgë
- *
-èbÀYñlow
- = 
-√w
- 
-	`QTabÀWidgë
-(6,2,&
-maöW
-);
-
-49 
-èbÀYñlow
-->
-	`vîtiˇlHódî
-()->
-	`£tSe˘i⁄ResizeMode
-(
-QHódîVõw
-::
-Såëch
-);
-
-50 
-èbÀYñlow
-->
-	`h‹iz⁄èlHódî
-()->
-	`£tSe˘i⁄ResizeMode
-(
-QHódîVõw
-::
-Såëch
-);
-
-51 
-èbÀYñlow
-->
-	`vîtiˇlHódî
-()->
-	`hide
-();
-
-52 
-èbÀYñlow
-->
-	`h‹iz⁄èlHódî
-()->
-	`hide
-();
-
-55 
-QWidgë
- *
-t›Le·
- = 
-√w
- 
-	`QWidgë
-(&
-maöW
-);
-
-56 
-vS∂ôãr1
-->
-	`addWidgë
-(
-t›Le·
-);
-
-57 
-vS∂ôãr1
-->
-	`addWidgë
-(
-èbÀYñlow
-);
-
-58 
-vS∂ôãr2
-->
-	`addWidgë
-(
-èbÀGªí
-);
-
-59 
-vS∂ôãr2
-->
-	`addWidgë
-(
-èbÀRed
-);
-
-60 
-hS∂ôãr
-->
-	`addWidgë
-(
-vS∂ôãr1
-);
-
-61 
-hS∂ôãr
-->
-	`addWidgë
-(
-vS∂ôãr2
-);
-
-62 
-QHBoxLayout
- *
-maöLay
- = 
-√w
- 
-	`QHBoxLayout
-(&
-maöW
-);
-
-63 
-maöLay
-->
-	`addWidgë
-(
-hS∂ôãr
-);
-
-65 
-QTimî
-::
-	`sögÀShŸ
-(0,
-vS∂ôãr1
-,[
-vS∂ôãr2
-,vS∂ôãr1](){vS∂ôãr1->
-	`£tSizes
-(vS∂ôãr2->
-	`sizes
-());});
-
-66 
-QObje˘
-::
-	`c⁄√˘
-(
-vS∂ôãr1
-,&
-QS∂ôãr
-::
-•lôãrMoved
-,
-vS∂ôãr2
-,[vS∂ôãr2,vS∂ôãr1](){vS∂ôãr2->
-	`£tSizes
-(vS∂ôãr1->
-	`sizes
-());});
-
-67 
-QObje˘
-::
-	`c⁄√˘
-(
-vS∂ôãr2
-,&
-QS∂ôãr
-::
-•lôãrMoved
-,
-vS∂ôãr1
-,[vS∂ôãr2,vS∂ôãr1](){vS∂ôãr1->
-	`£tSizes
-(vS∂ôãr2->
-	`sizes
-());});
-
-68 
-QObje˘
-::
-	`c⁄√˘
-(
-èbÀRed
-->
-	`vîtiˇlS¸ﬁlB¨
-(),&
-QS¸ﬁlB¨
-::
-vÆueCh™ged
-,
-èbÀYñlow
-->vîtiˇlS¸ﬁlB¨(),&QS¸ﬁlB¨::
-£tVÆue
-);
-
-69 
-QObje˘
-::
-	`c⁄√˘
-(
-èbÀYñlow
-->
-	`vîtiˇlS¸ﬁlB¨
-(),&
-QS¸ﬁlB¨
-::
-vÆueCh™ged
-,
-èbÀRed
-->vîtiˇlS¸ﬁlB¨(),&QS¸ﬁlB¨::
-£tVÆue
-);
-
-70 
-QObje˘
-::
-	`c⁄√˘
-(
-èbÀRed
-->
-	`h‹iz⁄èlS¸ﬁlB¨
-(),&
-QS¸ﬁlB¨
-::
-vÆueCh™ged
-,
-èbÀGªí
-->h‹iz⁄èlS¸ﬁlB¨(),&QS¸ﬁlB¨::
-£tVÆue
-);
-
-71 
-QObje˘
-::
-	`c⁄√˘
-(
-èbÀGªí
-->
-	`h‹iz⁄èlS¸ﬁlB¨
-(),&
-QS¸ﬁlB¨
-::
-vÆueCh™ged
-,
-èbÀRed
-->h‹iz⁄èlS¸ﬁlB¨(),&QS¸ﬁlB¨::
-£tVÆue
-);
-
-72 
-maöW
-.
-	`show
-();
-
-74 i‡(
-	`Py_FöÆizeEx
-() < 0) {
-
-75 
-	`exô
-(120);
-
-77 
-	`PyMem_RawFªe
-(
-¥ogøm
-);
-
-80  
-a
-.
-	`exec
-();
-
-81 
+85 
 	}
 }
 

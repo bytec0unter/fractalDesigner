@@ -8,7 +8,7 @@ bBuffer::bBuffer(std::string buffer)
     addBuffer(buffer);
 }
 
-~bBuffer::bBuffer()
+bBuffer::~bBuffer()
 {
     clearBuffers();
 }

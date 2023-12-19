@@ -7,6 +7,9 @@
 #ifndef BBUFFER_H
 #define BBUFFER_H
 
+#include <string>
+#include <map>
+
 
 class bBuffer {
 
