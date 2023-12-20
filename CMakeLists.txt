@@ -8,7 +8,7 @@ include("basictools")
 ## SETUP VARIABLES so that cmake can find the packages
 #
 #TODO Make CMAKE_PREFIX_PATH work in this CMakelists.txt file!
-bs_set_cmake_prefix_path()
+#bs_set_cmake_prefix_path()
 
 message(STATUS "CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}"
         " CMAKE_PREFIX_QT6: ${CMAKE_PREFIX_QT6}"
