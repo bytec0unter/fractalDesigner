@@ -41,8 +41,9 @@ SET(CMAKE_CXX_FLAGS_RELEASE "-O3")
 #
 find_package(
     Qt6 6.6.1
-    REQUIRED COMPONENTS Core Gui Widgets OpenGL OpenGLWidgets Svg
+    COMPONENTS Core Quick Gui Widgets Svg OpenGLWidgets REQUIRED
 )
+qt6_standard_project_setup()
 
 # find python library located at /home/stuv/build/python3.13/lib/libpython3.13.so
 find_package(
@@ -50,7 +51,6 @@ find_package(
   REQUIRED COMPONENTS Interpreter Development
 )
 
-qt6_standard_project_setup()
 
 
 
@@ -79,8 +79,8 @@ set(PYTHON_LIBRARIES Python3::Python Python3_LIBARY_DIRS)
 
 
 # qt6 set include directories and link libraries
-target_include_directories(${PROJECT_NAME} PRIVATE Python3::Python Python3_INCLUDE_DIRS ${MOD_QT6})
-target_link_libraries(${PROJECT_NAME} PRIVATE MOD_QT6 ${PYTHON_LIBRARIES} ${CMAKE_DL_LIBS})
+target_include_directories(${PROJECT_NAME} PRIVATE Python3::Python Python3_INCLUDE_DIRS)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${MOD_QT6} ${PYTHON_LIBRARIES} ${CMAKE_DL_LIBS})
 
 
 set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME ${PROJECT_NAME}_release)

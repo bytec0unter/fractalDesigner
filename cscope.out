@@ -1,4 +1,4 @@
-cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000029813
+cscope 15 /media/stuv/PROJECTS/programming/private/fractalDesigner               0000051081
 	@build/CMakeFiles/3.28.20231024-git/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
 4 #iâdeà
@@ -3839,6 +3839,3134 @@ __CRAYXT_COMPUTE_LINUX_TARGET
 	}
 }
 
+	@build/bsApplication_autogen/RRZ2WDOS7P/moc_bApplication.cpp
+
+9 
+	~"../../../¤c/š‹º/bAµliÿtiÚ.h
+"
+
+10 
+	~<QtGui/q‹xtcursÜ.h
+>
+
+11 
+	~<QtGui/qsü“n.h
+>
+
+12 
+	~<QtCÜe/qm‘©y³.h
+>
+
+14 #ià
+__has_šþude
+(<
+QtCÜe
+/
+qtmoch–³rs
+.
+h
+>)
+
+15 
+	~<QtCÜe/qtmoch–³rs.h
+>
+
+17 
+	gQT_BEGIN_MOC_NAMESPACE
+
+
+21 
+	~<memÜy
+>
+
+23 #ià!
+defšed
+(
+Q_MOC_OUTPUT_REVISION
+)
+
+25 #–ià
+Q_MOC_OUTPUT_REVISION
+ != 68
+
+31 #iâdeà
+Q_CONSTINIT
+
+
+32 
+	#Q_CONSTINIT
+
+
+	)
+
+35 
+QT_WARNING_PUSH
+
+
+36 
+QT_WARNING_DISABLE_DEPRECATED
+
+
+37 
+QT_WARNING_DISABLE_GCC
+("-Wuseless-cast")
+
+38 
+	gÇme¥aû
+ {
+
+40 #ifdeà
+QT_MOC_HAS_STRINGDATA
+
+
+41 
+	sqt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS_t
+ {};
+
+42 
+cÚ¡ex´
+‡utØ
+	gqt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS
+ = 
+QtMocH–³rs
+::
+¡ršgD©a
+(
+
+46 
+	sqt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS_t
+ {
+
+47 
+ušt
+ 
+	goff£tsAndSizes
+[2];
+
+48 
+	g¡ršgd©a0
+[13];
+
+50 
+	#QT_MOC_LITERAL
+(
+ofs
+, 
+Ën
+) \
+
+51 
+	`ušt
+((
+qt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS_t
+::
+off£tsAndSizes
+è+ 
+ofs
+), 
+Ën
+
+
+	)
+
+52 
+Q_CONSTINIT
+ cÚ¡ 
+qt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS_t
+ 
+	gqt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS
+ = {
+
+54 
+QT_MOC_LITERAL
+(0, 12)
+
+58 #undeà
+QT_MOC_LITERAL
+
+
+62 
+Q_CONSTINIT
+ cÚ¡ 
+ušt
+ 
+	gqt_m‘a_d©a_CLASSbAµliÿtiÚENDCLASS
+[] = {
+
+78 
+Q_CONSTINIT
+ cÚ¡ 
+QM‘aObjeù
+ 
+	gbAµliÿtiÚ
+::
+¡©icM‘aObjeù
+ = { {
+
+79 
+QM‘aObjeù
+::
+Su³rD©a
+::
+lšk
+<
+QAµliÿtiÚ
+::
+¡©icM‘aObjeù
+>(),
+
+80 
+qt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS
+.
+off£tsAndSizes
+,
+
+81 
+qt_m‘a_d©a_CLASSbAµliÿtiÚENDCLASS
+,
+
+82 
+qt_¡©ic_m‘aÿÎ
+,
+
+83 
+nuÎ±r
+,
+
+84 
+qt_šcom¶‘e_m‘aTy³A¼ay
+<
+qt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS_t
+,
+
+86 
+QtPriv©e
+::
+Ty³AndFÜûCom¶‘e
+<
+bAµliÿtiÚ
+, 
+¡d
+::
+Œue_ty³
+>
+
+88 
+nuÎ±r
+
+
+91 
+	gbAµliÿtiÚ
+::
+	$qt_¡©ic_m‘aÿÎ
+(
+QObjeù
+ *
+_o
+, 
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+93 ()
+_o
+;
+
+94 ()
+_id
+;
+
+95 ()
+_c
+;
+
+96 ()
+_a
+;
+
+97 
+	}
+}
+
+99 cÚ¡ 
+QM‘aObjeù
+ *
+	gbAµliÿtiÚ
+::
+	$m‘aObjeù
+() const
+
+101  
+QObjeù
+::
+d_±r
+->
+m‘aObjeù
+ ? QObjeù::d_±r->
+	`dyÇmicM‘aObjeù
+(è: &
+¡©icM‘aObjeù
+;
+
+102 
+	}
+}
+
+104 *
+	gbAµliÿtiÚ
+::
+	$qt_m‘aÿ¡
+(cÚ¡ *
+_þÇme
+)
+
+106 ià(!
+_þÇme
+è 
+nuÎ±r
+;
+
+107 ià(!
+	`¡rcmp
+(
+_þÇme
+, 
+qt_m‘a_¡ršgd©a_CLASSbAµliÿtiÚENDCLASS
+.
+¡ršgd©a0
+))
+
+108  
+¡©ic_ÿ¡
+<*>(
+this
+);
+
+109  
+QAµliÿtiÚ
+::
+	`qt_m‘aÿ¡
+(
+_þÇme
+);
+
+110 
+	}
+}
+
+112 
+	gbAµliÿtiÚ
+::
+	$qt_m‘aÿÎ
+(
+QM‘aObjeù
+::
+C®l
+ 
+_c
+, 
+_id
+, **
+_a
+)
+
+114 
+_id
+ = 
+QAµliÿtiÚ
+::
+	`qt_m‘aÿÎ
+(
+_c
+, _id, 
+_a
+);
+
+115  
+_id
+;
+
+116 
+	}
+}
+
+117 
+	gQT_WARNING_POP
+
+
+	@build/bsApplication_autogen/moc_predefs.h
+
+1 
+	#__DBL_MIN_EXP__
+ (-1021)
+
+	)
+
+2 
+	#__ýp_©Œibu‹s
+ 200809L
+
+	)
+
+3 
+	#__ýp_nÚty³_‹m¶©e_·¿m‘”_auto
+ 201606L
+
+	)
+
+4 
+	#__UINT_LEAST16_MAX__
+ 0xffff
+
+	)
+
+5 
+	#__FLT16_HAS_QUIET_NAN__
+ 1
+
+	)
+
+6 
+	#__ATOMIC_ACQUIRE
+ 2
+
+	)
+
+7 
+	#__FLT128_MAX_10_EXP__
+ 4932
+
+	)
+
+8 
+	#__FLT_MIN__
+ 1.17549435082228750796873653722224568e-38F
+
+	)
+
+9 
+	#__GCC_IEC_559_COMPLEX
+ 2
+
+	)
+
+10 
+	#__ýp_agg»g©e_nsdmi
+ 201304L
+
+	)
+
+11 
+	#__UINT_LEAST8_TYPE__
+ 
+
+	)
+
+12 
+	#__SIZEOF_FLOAT80__
+ 16
+
+	)
+
+13 
+	#__INTMAX_C
+(
+c
+èø## 
+L
+
+
+	)
+
+14 
+	#__CHAR_BIT__
+ 8
+
+	)
+
+15 
+	#__UINT8_MAX__
+ 0xff
+
+	)
+
+16 
+	#__SCHAR_WIDTH__
+ 8
+
+	)
+
+17 
+	#__WINT_MAX__
+ 0xffffffffU
+
+	)
+
+18 
+	#__FLT32_MIN_EXP__
+ (-125)
+
+	)
+
+19 
+	#__ýp_¡©ic_as£¹
+ 201411L
+
+	)
+
+20 
+	#QT_GUI_LIB
+ 1
+
+	)
+
+21 
+	#__ORDER_LITTLE_ENDIAN__
+ 1234
+
+	)
+
+22 
+	#__SIZE_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+23 
+	#__WCHAR_MAX__
+ 0x7fffffff
+
+	)
+
+24 
+	#__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2
+ 1
+
+	)
+
+25 
+	#__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4
+ 1
+
+	)
+
+26 
+	#__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8
+ 1
+
+	)
+
+27 
+	#__GCC_ATOMIC_CHAR_LOCK_FREE
+ 2
+
+	)
+
+28 
+	#__GCC_IEC_559
+ 2
+
+	)
+
+29 
+	#__FLT32X_DECIMAL_DIG__
+ 17
+
+	)
+
+30 
+	#__FLT_EVAL_METHOD__
+ 0
+
+	)
+
+31 
+	#__ýp_bš¬y_l™”®s
+ 201304L
+
+	)
+
+32 
+	#__FLT64_DECIMAL_DIG__
+ 17
+
+	)
+
+33 
+	#__ýp_nÛxû±_funùiÚ_ty³
+ 201510L
+
+	)
+
+34 
+	#__GCC_ATOMIC_CHAR32_T_LOCK_FREE
+ 2
+
+	)
+
+35 
+	#__ýp_v¬Ÿdic_‹m¶©es
+ 200704L
+
+	)
+
+36 
+	#__UINT_FAST64_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+37 
+	#__SIG_ATOMIC_TYPE__
+ 
+
+	)
+
+38 
+	#__DBL_MIN_10_EXP__
+ (-307)
+
+	)
+
+39 
+	#__FINITE_MATH_ONLY__
+ 0
+
+	)
+
+40 
+	#__ýp_v¬ŸbË_‹m¶©es
+ 201304L
+
+	)
+
+41 
+	#__FLT32X_MAX_EXP__
+ 1024
+
+	)
+
+42 
+	#__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1
+ 1
+
+	)
+
+43 
+	#__FLT32_HAS_DENORM__
+ 1
+
+	)
+
+44 
+	#__UINT_FAST8_MAX__
+ 0xff
+
+	)
+
+45 
+	#__ýp_rv®ue_»ã»nû
+ 200610L
+
+	)
+
+46 
+	#__ýp_Ã¡ed_Çme¥aû_defš™iÚs
+ 201411L
+
+	)
+
+47 
+	#__DEC64_MAX_EXP__
+ 385
+
+	)
+
+48 
+	#__INT8_C
+(
+c
+è
+	)
+c
+
+49 
+	#__INT_LEAST8_WIDTH__
+ 8
+
+	)
+
+50 
+	#__ýp_v¬Ÿdic_usšg
+ 201611L
+
+	)
+
+51 
+	#__UINT_LEAST64_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+52 
+	#QT_OPENGL_LIB
+ 1
+
+	)
+
+53 
+	#__INT_LEAST8_MAX__
+ 0x7f
+
+	)
+
+54 
+	#__ýp_ÿ±u»_¡¬_this
+ 201603L
+
+	)
+
+55 
+	#__SHRT_MAX__
+ 0x7fff
+
+	)
+
+56 
+	#__LDBL_MAX__
+ 1.18973149535723176502126385303097021e+4932L
+
+	)
+
+57 
+	#__FLT64X_MAX_10_EXP__
+ 4932
+
+	)
+
+58 
+	#__ýp_if_cÚ¡ex´
+ 201606L
+
+	)
+
+59 
+	#__LDBL_IS_IEC_60559__
+ 2
+
+	)
+
+60 
+	#__FLT64X_HAS_QUIET_NAN__
+ 1
+
+	)
+
+61 
+	#__UINT_LEAST8_MAX__
+ 0xff
+
+	)
+
+62 
+	#__GCC_ATOMIC_BOOL_LOCK_FREE
+ 2
+
+	)
+
+63 
+	#__FLT128_DENORM_MIN__
+ 6.47517511943802511092443895822764655e-4966F128
+
+	)
+
+64 
+	#__UINTMAX_TYPE__
+ 
+
+	)
+
+65 
+	#__lšux
+ 1
+
+	)
+
+66 
+	#__DEC32_EPSILON__
+ 1E-6DF
+
+	)
+
+67 
+	#__FLT_EVAL_METHOD_TS_18661_3__
+ 0
+
+	)
+
+68 
+	#__unix
+ 1
+
+	)
+
+69 
+	#__UINT32_MAX__
+ 0xffffffffU
+
+	)
+
+70 
+	#__GXX_EXPERIMENTAL_CXX0X__
+ 1
+
+	)
+
+71 
+	#__DBL_DENORM_MIN__
+ (4.94065645841246544176568792868221372e-324L)
+
+	)
+
+72 
+	#__FLT128_MIN_EXP__
+ (-16381)
+
+	)
+
+73 
+	#__WINT_MIN__
+ 0U
+
+	)
+
+74 
+	#__FLT128_MIN_10_EXP__
+ (-4931)
+
+	)
+
+75 
+	#__FLT32X_IS_IEC_60559__
+ 2
+
+	)
+
+76 
+	#__INT_LEAST16_WIDTH__
+ 16
+
+	)
+
+77 
+	#__SCHAR_MAX__
+ 0x7f
+
+	)
+
+78 
+	#__FLT128_MANT_DIG__
+ 113
+
+	)
+
+79 
+	#__WCHAR_MIN__
+ (-
+__WCHAR_MAX__
+ - 1)
+
+	)
+
+80 
+	#QT_SVG_LIB
+ 1
+
+	)
+
+81 
+	#__INT64_C
+(
+c
+èø## 
+L
+
+
+	)
+
+82 
+	#__GCC_ATOMIC_POINTER_LOCK_FREE
+ 2
+
+	)
+
+83 
+	#__FLT32X_MANT_DIG__
+ 53
+
+	)
+
+84 
+	#__GCC_ATOMIC_CHAR16_T_LOCK_FREE
+ 2
+
+	)
+
+85 
+	#__ýp_®igÃd_Ãw
+ 201606L
+
+	)
+
+86 
+	#__FLT32_MAX_10_EXP__
+ 38
+
+	)
+
+87 
+	#__FLT64X_EPSILON__
+ 1.08420217248550443400745280086994171e-19F64x
+
+	)
+
+88 
+	#__STDC_HOSTED__
+ 1
+
+	)
+
+89 
+	#__DEC64_MIN_EXP__
+ (-382)
+
+	)
+
+90 
+	#__ýp_deþty³_auto
+ 201304L
+
+	)
+
+91 
+	#__DBL_DIG__
+ 15
+
+	)
+
+92 
+	#__FLT32_DIG__
+ 6
+
+	)
+
+93 
+	#__FLT_EPSILON__
+ 1.19209289550781250000000000000000000e-7F
+
+	)
+
+94 
+	#__GXX_WEAK__
+ 1
+
+	)
+
+95 
+	#__SHRT_WIDTH__
+ 16
+
+	)
+
+96 
+	#__FLT32_IS_IEC_60559__
+ 2
+
+	)
+
+97 
+	#__LDBL_MIN__
+ 3.36210314311209350626267781732175260e-4932L
+
+	)
+
+98 
+	#__DBL_IS_IEC_60559__
+ 2
+
+	)
+
+99 
+	#__DEC32_MAX__
+ 9.999999E96DF
+
+	)
+
+100 
+	#__ýp_th»ad§ã_¡©ic_š™
+ 200806L
+
+	)
+
+101 
+	#__ýp_’um”©Ü_©Œibu‹s
+ 201411L
+
+	)
+
+102 
+	#__FLT64X_DENORM_MIN__
+ 3.64519953188247460252840593361941982e-4951F64x
+
+	)
+
+103 
+	#__FLT32X_HAS_INFINITY__
+ 1
+
+	)
+
+104 
+	#__INT32_MAX__
+ 0x7fffffff
+
+	)
+
+105 
+	#__FLT16_DIG__
+ 3
+
+	)
+
+106 
+	#__unix__
+ 1
+
+	)
+
+107 
+	#__INT_WIDTH__
+ 32
+
+	)
+
+108 
+	#__SIZEOF_LONG__
+ 8
+
+	)
+
+109 
+	#__STDC_IEC_559__
+ 1
+
+	)
+
+110 
+	#__STDC_ISO_10646__
+ 201706L
+
+	)
+
+111 
+	#__UINT16_C
+(
+c
+è
+	)
+c
+
+112 
+	#__DECIMAL_DIG__
+ 21
+
+	)
+
+113 
+	#__STDC_IEC_559_COMPLEX__
+ 1
+
+	)
+
+114 
+	#__FLT64_EPSILON__
+ 2.22044604925031308084726333618164062e-16F64
+
+	)
+
+115 
+	#__gnu_lšux__
+ 1
+
+	)
+
+116 
+	#__INT16_MAX__
+ 0x7fff
+
+	)
+
+117 
+	#__FLT64_MIN_EXP__
+ (-1021)
+
+	)
+
+118 
+	#__FLT64X_MIN_10_EXP__
+ (-4931)
+
+	)
+
+119 
+	#__LDBL_HAS_QUIET_NAN__
+ 1
+
+	)
+
+120 
+	#__FLT16_MIN_EXP__
+ (-13)
+
+	)
+
+121 
+	#__FLT64_MANT_DIG__
+ 53
+
+	)
+
+122 
+	#__FLT64X_MANT_DIG__
+ 64
+
+	)
+
+123 
+	#__GNUC__
+ 12
+
+	)
+
+124 
+	#__GXX_RTTI
+ 1
+
+	)
+
+125 
+	#__p›__
+ 2
+
+	)
+
+126 
+	#__MMX__
+ 1
+
+	)
+
+127 
+	#__FLT_HAS_DENORM__
+ 1
+
+	)
+
+128 
+	#__SIZEOF_LONG_DOUBLE__
+ 16
+
+	)
+
+129 
+	#__BIGGEST_ALIGNMENT__
+ 16
+
+	)
+
+130 
+	#__STDC_UTF_16__
+ 1
+
+	)
+
+131 
+	#__FLT64_MAX_10_EXP__
+ 308
+
+	)
+
+132 
+	#__FLT16_MAX_10_EXP__
+ 4
+
+	)
+
+133 
+	#__ýp_d–eg©šg_cÚ¡ruùÜs
+ 200604L
+
+	)
+
+134 
+	#__FLT32_HAS_INFINITY__
+ 1
+
+	)
+
+135 
+	#__DBL_MAX__
+ (1.79769313486231570814527423731704357e+308L)
+
+	)
+
+136 
+	#__ýp_¿w_¡ršgs
+ 200710L
+
+	)
+
+137 
+	#__INT_FAST32_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+138 
+	#__DBL_HAS_INFINITY__
+ 1
+
+	)
+
+139 
+	#__SIZEOF_FLOAT__
+ 4
+
+	)
+
+140 
+	#__HAVE_SPECULATION_SAFE_VALUE
+ 1
+
+	)
+
+141 
+	#__ýp_fÞd_ex´essiÚs
+ 201603L
+
+	)
+
+142 
+	#__DEC32_MIN_EXP__
+ (-94)
+
+	)
+
+143 
+	#__INTPTR_WIDTH__
+ 64
+
+	)
+
+144 
+	#__FLT64X_HAS_INFINITY__
+ 1
+
+	)
+
+145 
+	#__UINT_LEAST32_MAX__
+ 0xffffffffU
+
+	)
+
+146 
+	#__FLT32X_HAS_DENORM__
+ 1
+
+	)
+
+147 
+	#__INT_FAST16_TYPE__
+ 
+
+	)
+
+148 
+	#__MMX_WITH_SSE__
+ 1
+
+	)
+
+149 
+	#__LDBL_HAS_DENORM__
+ 1
+
+	)
+
+150 
+	#QT_WIDGETS_LIB
+ 1
+
+	)
+
+151 
+	#__SEG_GS
+ 1
+
+	)
+
+152 
+	#__ýlu¥lus
+ 201703L
+
+	)
+
+153 
+	#__ýp_»f_qu®if›rs
+ 200710L
+
+	)
+
+154 
+	#__DEC32_MIN__
+ 1E-95DF
+
+	)
+
+155 
+	#__DEPRECATED
+ 1
+
+	)
+
+156 
+	#__ýp_rv®ue_»ã»nûs
+ 200610L
+
+	)
+
+157 
+	#__DBL_MAX_EXP__
+ 1024
+
+	)
+
+158 
+	#__WCHAR_WIDTH__
+ 32
+
+	)
+
+159 
+	#__FLT32_MAX__
+ 3.40282346638528859811704183484516925e+38F32
+
+	)
+
+160 
+	#__DEC128_EPSILON__
+ 1E-33DL
+
+	)
+
+161 
+	#__FLT16_DECIMAL_DIG__
+ 5
+
+	)
+
+162 
+	#__SSE2_MATH__
+ 1
+
+	)
+
+163 
+	#__ATOMIC_HLE_RELEASE
+ 131072
+
+	)
+
+164 
+	#__PTRDIFF_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+165 
+	#__amd64
+ 1
+
+	)
+
+166 
+	#__ATOMIC_HLE_ACQUIRE
+ 65536
+
+	)
+
+167 
+	#__GNUG__
+ 12
+
+	)
+
+168 
+	#__LONG_LONG_MAX__
+ 0x7fffffffffffffffLL
+
+	)
+
+169 
+	#__SIZEOF_SIZE_T__
+ 8
+
+	)
+
+170 
+	#__ýp_nsdmi
+ 200809L
+
+	)
+
+171 
+	#__FLT64X_MIN_EXP__
+ (-16381)
+
+	)
+
+172 
+	#__SIZEOF_WINT_T__
+ 4
+
+	)
+
+173 
+	#__LONG_LONG_WIDTH__
+ 64
+
+	)
+
+174 
+	#__ýp_š™Ÿliz”_li¡s
+ 200806L
+
+	)
+
+175 
+	#__FLT32_MAX_EXP__
+ 128
+
+	)
+
+176 
+	#ABI_ID
+ "ELF"
+
+	)
+
+177 
+	#__ýp_hex_æßt
+ 201603L
+
+	)
+
+178 
+	#__GXX_ABI_VERSION
+ 1017
+
+	)
+
+179 
+	#__FLT128_HAS_INFINITY__
+ 1
+
+	)
+
+180 
+	#__FLT_MIN_EXP__
+ (-125)
+
+	)
+
+181 
+	#__GCC_HAVE_DWARF2_CFI_ASM
+ 1
+
+	)
+
+182 
+	#__x86_64
+ 1
+
+	)
+
+183 
+	#__ýp_Ïmbdas
+ 200907L
+
+	)
+
+184 
+	#__INT_FAST64_TYPE__
+ 
+
+	)
+
+185 
+	#__FLT64_DENORM_MIN__
+ 4.94065645841246544176568792868221372e-324F64
+
+	)
+
+186 
+	#__ýp_‹m¶©e_auto
+ 201606L
+
+	)
+
+187 
+	#__DBL_MIN__
+ (2.22507385850720138309023271733240406e-308L)
+
+	)
+
+188 
+	#__FLT16_DENORM_MIN__
+ 5.96046447753906250000000000000000000e-8F16
+
+	)
+
+189 
+	#__FLT128_EPSILON__
+ 1.92592994438723585305597794258492732e-34F128
+
+	)
+
+190 
+	#__FLT64X_NORM_MAX__
+ 1.18973149535723176502126385303097021e+4932F64x
+
+	)
+
+191 
+	#__SIZEOF_POINTER__
+ 8
+
+	)
+
+192 
+	#__LP64__
+ 1
+
+	)
+
+193 
+	#__DBL_HAS_QUIET_NAN__
+ 1
+
+	)
+
+194 
+	#__FLT32X_EPSILON__
+ 2.22044604925031308084726333618164062e-16F32x
+
+	)
+
+195 
+	#__DECIMAL_BID_FORMAT__
+ 1
+
+	)
+
+196 
+	#__FLT64_MIN_10_EXP__
+ (-307)
+
+	)
+
+197 
+	#__FLT16_MIN_10_EXP__
+ (-4)
+
+	)
+
+198 
+	#__FLT64X_DECIMAL_DIG__
+ 21
+
+	)
+
+199 
+	#__DEC128_MIN__
+ 1E-6143DL
+
+	)
+
+200 
+	#__REGISTER_PREFIX__
+
+
+	)
+
+201 
+	#__UINT16_MAX__
+ 0xffff
+
+	)
+
+202 
+	#__LDBL_HAS_INFINITY__
+ 1
+
+	)
+
+203 
+	#__FLT32_MIN__
+ 1.17549435082228750796873653722224568e-38F32
+
+	)
+
+204 
+	#__UINT8_TYPE__
+ 
+
+	)
+
+205 
+	#__FLT_DIG__
+ 6
+
+	)
+
+206 
+	#__NO_INLINE__
+ 1
+
+	)
+
+207 
+	#__DEC_EVAL_METHOD__
+ 2
+
+	)
+
+208 
+	#__DEC128_MAX__
+ 9.999999999999999999999999999999999E6144DL
+
+	)
+
+209 
+	#__FLT_MANT_DIG__
+ 24
+
+	)
+
+210 
+	#__LDBL_DECIMAL_DIG__
+ 21
+
+	)
+
+211 
+	#__VERSION__
+ "12.2.0"
+
+	)
+
+212 
+	#__UINT64_C
+(
+c
+èø## 
+UL
+
+
+	)
+
+213 
+	#__ýp_unicode_ch¬aù”s
+ 201411L
+
+	)
+
+214 
+	#_STDC_PREDEF_H
+ 1
+
+	)
+
+215 
+	#__INT_LEAST32_MAX__
+ 0x7fffffff
+
+	)
+
+216 
+	#__GCC_ATOMIC_INT_LOCK_FREE
+ 2
+
+	)
+
+217 
+	#__FLT128_MAX_EXP__
+ 16384
+
+	)
+
+218 
+	#__FLT32_MANT_DIG__
+ 24
+
+	)
+
+219 
+	#__FLOAT_WORD_ORDER__
+ 
+__ORDER_LITTLE_ENDIAN__
+
+
+	)
+
+220 
+	#SIZEOF_DPTR
+ ((*))
+
+	)
+
+221 
+	#__FLT32X_MIN_EXP__
+ (-1021)
+
+	)
+
+222 
+	#__STDC_IEC_60559_COMPLEX__
+ 201404L
+
+	)
+
+223 
+	#__ýp_agg»g©e_ba£s
+ 201603L
+
+	)
+
+224 
+	#__FLT128_HAS_DENORM__
+ 1
+
+	)
+
+225 
+	#__FLT32_DECIMAL_DIG__
+ 9
+
+	)
+
+226 
+	#__FLT128_DIG__
+ 33
+
+	)
+
+227 
+	#__INT32_C
+(
+c
+è
+	)
+c
+
+228 
+	#__DEC64_EPSILON__
+ 1E-15DD
+
+	)
+
+229 
+	#__ORDER_PDP_ENDIAN__
+ 3412
+
+	)
+
+230 
+	#__DEC128_MIN_EXP__
+ (-6142)
+
+	)
+
+231 
+	#QT_OPENGLWIDGETS_LIB
+ 1
+
+	)
+
+232 
+	#__INT_FAST32_TYPE__
+ 
+
+	)
+
+233 
+	#__UINT_LEAST16_TYPE__
+ 
+
+	)
+
+234 
+	#unix
+ 1
+
+	)
+
+235 
+	#__DBL_HAS_DENORM__
+ 1
+
+	)
+
+236 
+	#__ýp_¹ti
+ 199711L
+
+	)
+
+237 
+	#__SIZE_TYPE__
+ 
+
+	)
+
+238 
+	#__UINT64_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+239 
+	#__FLT_IS_IEC_60559__
+ 2
+
+	)
+
+240 
+	#__GNUC_WIDE_EXECUTION_CHARSET_NAME
+ "UTF-32LE"
+
+	)
+
+241 
+	#__FLT64X_DIG__
+ 18
+
+	)
+
+242 
+	#__INT8_TYPE__
+ sigÃd 
+
+	)
+
+243 
+	#__ýp_dig™_£·¿tÜs
+ 201309L
+
+	)
+
+244 
+	#__ELF__
+ 1
+
+	)
+
+245 
+	#__GCC_ASM_FLAG_OUTPUTS__
+ 1
+
+	)
+
+246 
+	#__UINT32_TYPE__
+ 
+
+	)
+
+247 
+	#__FLT_RADIX__
+ 2
+
+	)
+
+248 
+	#__INT_LEAST16_TYPE__
+ 
+
+	)
+
+249 
+	#__LDBL_EPSILON__
+ 1.08420217248550443400745280086994171e-19L
+
+	)
+
+250 
+	#__UINTMAX_C
+(
+c
+èø## 
+UL
+
+
+	)
+
+251 
+	#__GLIBCXX_BITSIZE_INT_N_0
+ 128
+
+	)
+
+252 
+	#__k8
+ 1
+
+	)
+
+253 
+	#__FLT32X_MIN__
+ 2.22507385850720138309023271733240406e-308F32x
+
+	)
+
+254 
+	#__SIG_ATOMIC_MAX__
+ 0x7fffffff
+
+	)
+
+255 
+	#__GCC_ATOMIC_WCHAR_T_LOCK_FREE
+ 2
+
+	)
+
+256 
+	#__USER_LABEL_PREFIX__
+
+
+	)
+
+257 
+	#__STDC_IEC_60559_BFP__
+ 201404L
+
+	)
+
+258 
+	#__SIZEOF_PTRDIFF_T__
+ 8
+
+	)
+
+259 
+	#__LDBL_DIG__
+ 18
+
+	)
+
+260 
+	#__FLT64_IS_IEC_60559__
+ 2
+
+	)
+
+261 
+	#__x86_64__
+ 1
+
+	)
+
+262 
+	#__FLT16_IS_IEC_60559__
+ 2
+
+	)
+
+263 
+	#__FLT16_MAX_EXP__
+ 16
+
+	)
+
+264 
+	#__DEC32_SUBNORMAL_MIN__
+ 0.000001E-95DF
+
+	)
+
+265 
+	#__INT_FAST16_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+266 
+	#__GCC_CONSTRUCTIVE_SIZE
+ 64
+
+	)
+
+267 
+	#__FLT64_DIG__
+ 15
+
+	)
+
+268 
+	#__UINT_FAST32_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+269 
+	#__UINT_LEAST64_TYPE__
+ 
+
+	)
+
+270 
+	#__FLT16_EPSILON__
+ 9.76562500000000000000000000000000000e-4F16
+
+	)
+
+271 
+	#__FLT_HAS_QUIET_NAN__
+ 1
+
+	)
+
+272 
+	#__FLT_MAX_10_EXP__
+ 38
+
+	)
+
+273 
+	#__LONG_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+274 
+	#__FLT64X_HAS_DENORM__
+ 1
+
+	)
+
+275 
+	#__DEC128_SUBNORMAL_MIN__
+ 0.000000000000000000000000000000001E-6143DL
+
+	)
+
+276 
+	#__FLT_HAS_INFINITY__
+ 1
+
+	)
+
+277 
+	#__GNUC_EXECUTION_CHARSET_NAME
+ "UTF-8"
+
+	)
+
+278 
+	#__ýp_unicode_l™”®s
+ 200710L
+
+	)
+
+279 
+	#__UINT_FAST16_TYPE__
+ 
+
+	)
+
+280 
+	#__DEC64_MAX__
+ 9.999999999999999E384DD
+
+	)
+
+281 
+	#__INT_FAST32_WIDTH__
+ 64
+
+	)
+
+282 
+	#__CHAR16_TYPE__
+ 
+
+	)
+
+283 
+	#__PRAGMA_REDEFINE_EXTNAME
+ 1
+
+	)
+
+284 
+	#__SIZE_WIDTH__
+ 64
+
+	)
+
+285 
+	#__SEG_FS
+ 1
+
+	)
+
+286 
+	#__INT_LEAST16_MAX__
+ 0x7fff
+
+	)
+
+287 
+	#__FLT16_NORM_MAX__
+ 6.55040000000000000000000000000000000e+4F16
+
+	)
+
+288 
+	#__DEC64_MANT_DIG__
+ 16
+
+	)
+
+289 
+	#__INT64_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+290 
+	#__FLT32_DENORM_MIN__
+ 1.40129846432481707092372958328991613e-45F32
+
+	)
+
+291 
+	#__SIG_ATOMIC_WIDTH__
+ 32
+
+	)
+
+292 
+	#__INT_LEAST64_TYPE__
+ 
+
+	)
+
+293 
+	#__INT16_TYPE__
+ 
+
+	)
+
+294 
+	#__INT_LEAST8_TYPE__
+ sigÃd 
+
+	)
+
+295 
+	#__FLT16_MAX__
+ 6.55040000000000000000000000000000000e+4F16
+
+	)
+
+296 
+	#__ýp_¡ruùu»d_bšdšgs
+ 201606L
+
+	)
+
+297 
+	#__SIZEOF_INT__
+ 4
+
+	)
+
+298 
+	#__DEC32_MAX_EXP__
+ 97
+
+	)
+
+299 
+	#__INT_FAST8_MAX__
+ 0x7f
+
+	)
+
+300 
+	#__FLT128_MAX__
+ 1.18973149535723176508575932662800702e+4932F128
+
+	)
+
+301 
+	#__INTPTR_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+302 
+	#__ýp_sized_d—ÎoÿtiÚ
+ 201309L
+
+	)
+
+303 
+	#__ýp_gu¬ª‹ed_cÝy_–isiÚ
+ 201606L
+
+	)
+
+304 
+	#lšux
+ 1
+
+	)
+
+305 
+	#__FLT64_HAS_QUIET_NAN__
+ 1
+
+	)
+
+306 
+	#__FLT32_MIN_10_EXP__
+ (-37)
+
+	)
+
+307 
+	#__EXCEPTIONS
+ 1
+
+	)
+
+308 
+	#__PTRDIFF_WIDTH__
+ 64
+
+	)
+
+309 
+	#__LDBL_MANT_DIG__
+ 64
+
+	)
+
+310 
+	#__ýp_¿nge_ba£d_fÜ
+ 201603L
+
+	)
+
+311 
+	#__FLT64_HAS_INFINITY__
+ 1
+
+	)
+
+312 
+	#__FLT64X_MAX__
+ 1.18973149535723176502126385303097021e+4932F64x
+
+	)
+
+313 
+	#__FLT16_HAS_INFINITY__
+ 1
+
+	)
+
+314 
+	#__STDCPP_DEFAULT_NEW_ALIGNMENT__
+ 16
+
+	)
+
+315 
+	#__SIG_ATOMIC_MIN__
+ (-
+__SIG_ATOMIC_MAX__
+ - 1)
+
+	)
+
+316 
+	#__code_mod–_sm®l__
+ 1
+
+	)
+
+317 
+	#__GCC_ATOMIC_LONG_LOCK_FREE
+ 2
+
+	)
+
+318 
+	#__ýp_nÚty³_‹m¶©e_¬gs
+ 201411L
+
+	)
+
+319 
+	#__DEC32_MANT_DIG__
+ 7
+
+	)
+
+320 
+	#__ýp_»tuº_ty³_deduùiÚ
+ 201304L
+
+	)
+
+321 
+	#__k8__
+ 1
+
+	)
+
+322 
+	#__INTPTR_TYPE__
+ 
+
+	)
+
+323 
+	#__UINT16_TYPE__
+ 
+
+	)
+
+324 
+	#__WCHAR_TYPE__
+ 
+
+	)
+
+325 
+	#__pic__
+ 2
+
+	)
+
+326 
+	#__UINTPTR_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+327 
+	#__INT_FAST64_WIDTH__
+ 64
+
+	)
+
+328 
+	#__ýp_deþty³
+ 200707L
+
+	)
+
+329 
+	#__INT_FAST64_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+330 
+	#__GCC_ATOMIC_TEST_AND_SET_TRUEVAL
+ 1
+
+	)
+
+331 
+	#__FLT_NORM_MAX__
+ 3.40282346638528859811704183484516925e+38F
+
+	)
+
+332 
+	#__FLT64X_MAX_EXP__
+ 16384
+
+	)
+
+333 
+	#__UINT_FAST64_TYPE__
+ 
+
+	)
+
+334 
+	#__ýp_šlše_v¬ŸbËs
+ 201606L
+
+	)
+
+335 
+	#__INT_MAX__
+ 0x7fffffff
+
+	)
+
+336 
+	#__lšux__
+ 1
+
+	)
+
+337 
+	#__INT64_TYPE__
+ 
+
+	)
+
+338 
+	#__FLT_MAX_EXP__
+ 128
+
+	)
+
+339 
+	#__ORDER_BIG_ENDIAN__
+ 4321
+
+	)
+
+340 
+	#__DBL_MANT_DIG__
+ 53
+
+	)
+
+341 
+	#__ýp_šh”™šg_cÚ¡ruùÜs
+ 201511L
+
+	)
+
+342 
+	#QT_CORE_LIB
+ 1
+
+	)
+
+343 
+	#__SIZEOF_FLOAT128__
+ 16
+
+	)
+
+344 
+	#__INT_LEAST64_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+345 
+	#__DEC64_MIN__
+ 1E-383DD
+
+	)
+
+346 
+	#__WINT_TYPE__
+ 
+
+	)
+
+347 
+	#__UINT_LEAST32_TYPE__
+ 
+
+	)
+
+348 
+	#__SIZEOF_SHORT__
+ 2
+
+	)
+
+349 
+	#__FLT32_NORM_MAX__
+ 3.40282346638528859811704183484516925e+38F32
+
+	)
+
+350 
+	#__SSE__
+ 1
+
+	)
+
+351 
+	#__LDBL_MIN_EXP__
+ (-16381)
+
+	)
+
+352 
+	#__FLT64_MAX__
+ 1.79769313486231570814527423731704357e+308F64
+
+	)
+
+353 
+	#__amd64__
+ 1
+
+	)
+
+354 
+	#__WINT_WIDTH__
+ 32
+
+	)
+
+355 
+	#__INT_LEAST64_WIDTH__
+ 64
+
+	)
+
+356 
+	#__LDBL_MAX_EXP__
+ 16384
+
+	)
+
+357 
+	#__FLT32X_MAX_10_EXP__
+ 308
+
+	)
+
+358 
+	#__SIZEOF_INT128__
+ 16
+
+	)
+
+359 
+	#__FLT16_MIN__
+ 6.10351562500000000000000000000000000e-5F16
+
+	)
+
+360 
+	#__FLT64X_IS_IEC_60559__
+ 2
+
+	)
+
+361 
+	#__LDBL_MAX_10_EXP__
+ 4932
+
+	)
+
+362 
+	#__ATOMIC_RELAXED
+ 0
+
+	)
+
+363 
+	#__DBL_EPSILON__
+ (2.22044604925031308084726333618164062e-16L)
+
+	)
+
+364 
+	#__FLT128_MIN__
+ 3.36210314311209350626267781732175260e-4932F128
+
+	)
+
+365 
+	#_LP64
+ 1
+
+	)
+
+366 
+	#__UINT8_C
+(
+c
+è
+	)
+c
+
+367 
+	#__FLT64_MAX_EXP__
+ 1024
+
+	)
+
+368 
+	#__INT_LEAST32_TYPE__
+ 
+
+	)
+
+369 
+	#__SIZEOF_WCHAR_T__
+ 4
+
+	)
+
+370 
+	#__GNUC_PATCHLEVEL__
+ 0
+
+	)
+
+371 
+	#__FLT128_NORM_MAX__
+ 1.18973149535723176508575932662800702e+4932F128
+
+	)
+
+372 
+	#__FLT64_NORM_MAX__
+ 1.79769313486231570814527423731704357e+308F64
+
+	)
+
+373 
+	#__FLT128_HAS_QUIET_NAN__
+ 1
+
+	)
+
+374 
+	#__INTMAX_MAX__
+ 0x7fffffffffffffffL
+
+	)
+
+375 
+	#__INT_FAST8_TYPE__
+ sigÃd 
+
+	)
+
+376 
+	#__ýp_Çme¥aû_©Œibu‹s
+ 201411L
+
+	)
+
+377 
+	#__FLT64X_MIN__
+ 3.36210314311209350626267781732175260e-4932F64x
+
+	)
+
+378 
+	#__STDCPP_THREADS__
+ 1
+
+	)
+
+379 
+	#__GNUC_STDC_INLINE__
+ 1
+
+	)
+
+380 
+	#__FLT64_HAS_DENORM__
+ 1
+
+	)
+
+381 
+	#__FLT32_EPSILON__
+ 1.19209289550781250000000000000000000e-7F32
+
+	)
+
+382 
+	#__FLT16_HAS_DENORM__
+ 1
+
+	)
+
+383 
+	#__DBL_DECIMAL_DIG__
+ 17
+
+	)
+
+384 
+	#__STDC_UTF_32__
+ 1
+
+	)
+
+385 
+	#__INT_FAST8_WIDTH__
+ 8
+
+	)
+
+386 
+	#__FXSR__
+ 1
+
+	)
+
+387 
+	#__FLT32X_MAX__
+ 1.79769313486231570814527423731704357e+308F32x
+
+	)
+
+388 
+	#__DBL_NORM_MAX__
+ (1.79769313486231570814527423731704357e+308L)
+
+	)
+
+389 
+	#__BYTE_ORDER__
+ 
+__ORDER_LITTLE_ENDIAN__
+
+
+	)
+
+390 
+	#__GCC_DESTRUCTIVE_SIZE
+ 64
+
+	)
+
+391 
+	#__INTMAX_WIDTH__
+ 64
+
+	)
+
+392 
+	#__ýp_ruÁime_¬¿ys
+ 198712L
+
+	)
+
+393 
+	#__UINT64_TYPE__
+ 
+
+	)
+
+394 
+	#__UINT32_C
+(
+c
+èø## 
+U
+
+
+	)
+
+395 
+	#__ýp_®Ÿs_‹m¶©es
+ 200704L
+
+	)
+
+396 
+	#__FLT_DENORM_MIN__
+ 1.40129846432481707092372958328991613e-45F
+
+	)
+
+397 
+	#__FLT128_IS_IEC_60559__
+ 2
+
+	)
+
+398 
+	#__INT8_MAX__
+ 0x7f
+
+	)
+
+399 
+	#__LONG_WIDTH__
+ 64
+
+	)
+
+400 
+	#__PIC__
+ 2
+
+	)
+
+401 
+	#__UINT_FAST32_TYPE__
+ 
+
+	)
+
+402 
+	#__FLT16_MANT_DIG__
+ 11
+
+	)
+
+403 
+	#__FLT32X_NORM_MAX__
+ 1.79769313486231570814527423731704357e+308F32x
+
+	)
+
+404 
+	#__CHAR32_TYPE__
+ 
+
+	)
+
+405 
+	#__FLT_MAX__
+ 3.40282346638528859811704183484516925e+38F
+
+	)
+
+406 
+	#__ýp_cÚ¡ex´
+ 201603L
+
+	)
+
+407 
+	#__SSE2__
+ 1
+
+	)
+
+408 
+	#__ýp_deduùiÚ_guides
+ 201703L
+
+	)
+
+409 
+	#__INT32_TYPE__
+ 
+
+	)
+
+410 
+	#__SIZEOF_DOUBLE__
+ 8
+
+	)
+
+411 
+	#__ýp_exû±iÚs
+ 199711L
+
+	)
+
+412 
+	#__FLT_MIN_10_EXP__
+ (-37)
+
+	)
+
+413 
+	#__FLT64_MIN__
+ 2.22507385850720138309023271733240406e-308F64
+
+	)
+
+414 
+	#__INT_LEAST32_WIDTH__
+ 32
+
+	)
+
+415 
+	#__INTMAX_TYPE__
+ 
+
+	)
+
+416 
+	#__DEC128_MAX_EXP__
+ 6145
+
+	)
+
+417 
+	#__FLT32X_HAS_QUIET_NAN__
+ 1
+
+	)
+
+418 
+	#__ATOMIC_CONSUME
+ 1
+
+	)
+
+419 
+	#__GNUC_MINOR__
+ 2
+
+	)
+
+420 
+	#__GLIBCXX_TYPE_INT_N_0
+ 
+__št128
+
+
+	)
+
+421 
+	#__INT_FAST16_WIDTH__
+ 64
+
+	)
+
+422 
+	#__UINTMAX_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+423 
+	#__PIE__
+ 2
+
+	)
+
+424 
+	#__FLT32X_DENORM_MIN__
+ 4.94065645841246544176568792868221372e-324F32x
+
+	)
+
+425 
+	#__ýp_‹m¶©e_‹m¶©e_¬gs
+ 201611L
+
+	)
+
+426 
+	#__DBL_MAX_10_EXP__
+ 308
+
+	)
+
+427 
+	#__LDBL_DENORM_MIN__
+ 3.64519953188247460252840593361941982e-4951L
+
+	)
+
+428 
+	#__INT16_C
+(
+c
+è
+	)
+c
+
+429 
+	#__STDC__
+ 1
+
+	)
+
+430 
+	#__FLT32X_DIG__
+ 15
+
+	)
+
+431 
+	#__PTRDIFF_TYPE__
+ 
+
+	)
+
+432 
+	#__ATOMIC_SEQ_CST
+ 5
+
+	)
+
+433 
+	#__FLT32X_MIN_10_EXP__
+ (-307)
+
+	)
+
+434 
+	#__UINTPTR_TYPE__
+ 
+
+	)
+
+435 
+	#__DEC64_SUBNORMAL_MIN__
+ 0.000000000000001E-383DD
+
+	)
+
+436 
+	#__DEC128_MANT_DIG__
+ 34
+
+	)
+
+437 
+	#__LDBL_MIN_10_EXP__
+ (-4931)
+
+	)
+
+438 
+	#__ýp_g’”ic_Ïmbdas
+ 201304L
+
+	)
+
+439 
+	#__SSE_MATH__
+ 1
+
+	)
+
+440 
+	#__SIZEOF_LONG_LONG__
+ 8
+
+	)
+
+441 
+	#__ýp_u£r_defšed_l™”®s
+ 200809L
+
+	)
+
+442 
+	#__FLT128_DECIMAL_DIG__
+ 36
+
+	)
+
+443 
+	#__GCC_ATOMIC_LLONG_LOCK_FREE
+ 2
+
+	)
+
+444 
+	#__FLT32_HAS_QUIET_NAN__
+ 1
+
+	)
+
+445 
+	#__FLT_DECIMAL_DIG__
+ 9
+
+	)
+
+446 
+	#__UINT_FAST16_MAX__
+ 0xffffffffffffffffUL
+
+	)
+
+447 
+	#__LDBL_NORM_MAX__
+ 1.18973149535723176502126385303097021e+4932L
+
+	)
+
+448 
+	#__GCC_ATOMIC_SHORT_LOCK_FREE
+ 2
+
+	)
+
+449 
+	#__UINT_FAST8_TYPE__
+ 
+
+	)
+
+450 
+	#_GNU_SOURCE
+ 1
+
+	)
+
+451 
+	#__ýp_š™_ÿ±u»s
+ 201304L
+
+	)
+
+452 
+	#__ATOMIC_ACQ_REL
+ 4
+
+	)
+
+453 
+	#__ATOMIC_RELEASE
+ 3
+
+	)
+
+	@build/bsApplication_autogen/mocs_compilation.cpp
+
+2 
+	~"RRZ2WDOS7P/moc_bAµliÿtiÚ.ýp
+"
+
 	@src/intern/bApplication.cpp
 
 2 
@@ -4786,9 +7914,12 @@ NULL
 .
 1
 /usr/include
-11
-361
+14
+512
 build/CMakeFiles/3.28.20231024-git/CompilerIdCXX/CMakeCXXCompilerId.cpp
+build/bsApplication_autogen/RRZ2WDOS7P/moc_bApplication.cpp
+build/bsApplication_autogen/moc_predefs.h
+build/bsApplication_autogen/mocs_compilation.cpp
 src/intern/bApplication.cpp
 src/intern/bApplication.h
 src/intern/bIApplication.h
