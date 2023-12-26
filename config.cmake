@@ -1,4 +1,4 @@
 
-set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13" CACHE INTERNAL "")
+set(CMAKE_PREFIX_PYTHON3 "/home/stuv/data/build/cpython3.13" CACHE INTERNAL "")
 set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6" CACHE INTERNAL "")
 set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PYTHON3} ${CMAKE_PREFIX_QT6}  CACHE INTERNAL "")

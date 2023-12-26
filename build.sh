@@ -1,5 +1,5 @@
 mkdir build
 cd build
-cmake ..
+cmake .. -C ../config.cmake
 cmake --build .
 cmake --install .
