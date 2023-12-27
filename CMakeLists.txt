@@ -51,7 +51,10 @@ find_package(
   REQUIRED COMPONENTS Interpreter Development
 )
 
-
+find_package(
+  OpenSSL 3.0.1
+  REQUIRED COMPONENTS Crypto SSL
+)
 
 
 file(GLOB_RECURSE SOURCES
