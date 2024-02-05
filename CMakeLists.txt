@@ -17,7 +17,7 @@ message(STATUS "CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}"
 
 #set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6")
 #set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13")
-#set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib")
+set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib")
 #list(APPEND CMAKE_PREFIX_PATH ${CMAKE_PREFIX_QT6} ${CMAKE_PREFIX_PYTHON3})
 
 
@@ -78,11 +78,11 @@ set_target_properties(${PROJECT_NAME} PROPERTIES RELEASE_OUTPUT_NAME bsFractalDe
 set_target_properties(${PROJECT_NAME} PROPERTIES DEBUG_OUTPUT_NAME bsFractalDesigner_debug)
 
 set(MOD_QT6 Qt6::Core Qt6::Gui Qt6::Widgets  Qt6::OpenGLWidgets Qt6::Svg)
-set(PYTHON_LIBRARIES Python3::Python Python3_LIBARY_DIRS)
+set(PYTHON_LIBRARIES Python3::Python)
 
 
 # qt6 set include directories and link libraries
-target_include_directories(${PROJECT_NAME} PRIVATE Python3::Python Python3_INCLUDE_DIRS)
+target_include_directories(${PROJECT_NAME} PRIVATE Python3::Python)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${MOD_QT6} ${PYTHON_LIBRARIES} ${CMAKE_DL_LIBS})
 
 
