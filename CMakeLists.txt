@@ -15,12 +15,6 @@ message(STATUS "CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}"
         " CMAKE_PREFIX_PYTHON3: ${CMAKE_PREFIX_PYTHON3}"
         " QT6_RPATH: ${QT6_RPATH}")
 
-#set(CMAKE_PREFIX_QT6 "/home/stuv/Qt/6.6.1/gcc_64/lib/cmake/Qt6")
-#set(CMAKE_PREFIX_PYTHON3 "/home/stuv/projects/build/python3.13")
-set(QT6_RPATH "/home/stuv/Qt/6.6.1/gcc_64/lib")
-#list(APPEND CMAKE_PREFIX_PATH ${CMAKE_PREFIX_QT6} ${CMAKE_PREFIX_PYTHON3})
-
-
 
 bs_set_build_type()
 
@@ -98,8 +92,3 @@ install(
 )
 
 
-
-install(
-    TARGETS ${PROJECT_NAME}
-    RUNTIME DESTINATION ${PROJECT_SOURCE_DIR}/out
-)
